@@ -1,0 +1,872 @@
+-5870905659106089052	div > div > dbce	dbce-class-bp
+7608049580818012669	div > div:nth-child(3) > button > dbce	dbce-class-bp
+9067664936406855020	div:nth-child(5) > div > div > div > a > dbce	dbce-class-bp
+-5783602256291326684	div:nth-child(5) > div > div > div:nth-child(3) > div > form:nth-child(3) > span:nth-child(3) > select > option > dbce	dbce-class-bp
+-7316248409419487875	div:nth-child(5) > div > div > div:nth-child(3) > div > form:nth-child(3) > span:nth-child(3) > select > option:nth-child(11) > dbce	dbce-class-bp
+-6070564500079697449	div:nth-child(5) > div > div > div:nth-child(3) > div > form:nth-child(3) > span:nth-child(3) > select > option:nth-child(13) > dbce	dbce-class-bp
+-4063962872664563428	div:nth-child(5) > div > div > div:nth-child(3) > div > form:nth-child(3) > span:nth-child(3) > select > option:nth-child(3) > dbce	dbce-class-bp
+2568670666272898070	div:nth-child(5) > div > div > div:nth-child(3) > div > form:nth-child(3) > span:nth-child(3) > select > option:nth-child(5) > dbce	dbce-class-bp
+-5525421268209911581	div:nth-child(5) > div > div > div:nth-child(3) > div > form:nth-child(3) > span:nth-child(3) > select > option:nth-child(7) > dbce	dbce-class-bp
+1797997301144425482	div:nth-child(5) > div > div > div:nth-child(3) > div > form:nth-child(3) > span:nth-child(3) > select > option:nth-child(9) > dbce	dbce-class-bp
+7435595593356086860	div:nth-child(5) > div > div > div:nth-child(3) > div > ul > li > a > dbce	dbce-class-bp
+2114664988116961635	div:nth-child(5) > div > div > div:nth-child(3) > div > ul > li:nth-child(3) > a > dbce	dbce-class-bp
+5703183734826226650	div:nth-child(5) > div > div > div:nth-child(3) > div > ul > li:nth-child(5) > a > dbce	dbce-class-bp
+1884305697017223350	div:nth-child(5) > div > div > div:nth-child(5) > ul > li > a > dbce	dbce-class-bp
+-3460145012753449939	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(11) > a > dbce	dbce-class-bp
+-8202187906446144186	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(11) > div:nth-child(3) > ul > li > span > dbce	dbce-class-bp
+-4002180781946508794	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(11) > div:nth-child(3) > ul > li:nth-child(3) > span > dbce	dbce-class-bp
+-3709758739460116521	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(11) > div:nth-child(3) > ul > li:nth-child(5) > span > dbce	dbce-class-bp
+-7130789101437444671	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(11) > div:nth-child(3) > ul > li:nth-child(7) > span > dbce	dbce-class-bp
+6059876682367003736	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(11) > div:nth-child(3) > ul:nth-child(3) > li > span > dbce	dbce-class-bp
+6235625209762395683	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(11) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(11) > span > dbce	dbce-class-bp
+1923317301338753794	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(11) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(13) > span > dbce	dbce-class-bp
+-499676153288409604	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(11) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > span > dbce	dbce-class-bp
+7724920055210718742	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(11) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > span > dbce	dbce-class-bp
+-1325512314033302741	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(11) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > span > dbce	dbce-class-bp
+7391892234982158187	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(11) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(9) > span > dbce	dbce-class-bp
+8136046864939858693	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(13) > a > dbce	dbce-class-bp
+3729852377308656860	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(13) > div:nth-child(3) > ul > li > span > dbce	dbce-class-bp
+-1329193288071827492	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(13) > div:nth-child(3) > ul > li:nth-child(11) > a > dbce	dbce-class-bp
+315183005018868444	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(13) > div:nth-child(3) > ul > li:nth-child(13) > a > dbce	dbce-class-bp
+8047523032935034883	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(13) > div:nth-child(3) > ul > li:nth-child(15) > a > dbce	dbce-class-bp
+-2716942256941211695	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(13) > div:nth-child(3) > ul > li:nth-child(17) > a > dbce	dbce-class-bp
+-6028005169176535735	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(13) > div:nth-child(3) > ul > li:nth-child(19) > span > dbce	dbce-class-bp
+7764527448524318469	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(13) > div:nth-child(3) > ul > li:nth-child(3) > a > dbce	dbce-class-bp
+-7639573129689986358	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(13) > div:nth-child(3) > ul > li:nth-child(5) > a > dbce	dbce-class-bp
+6683817179576723315	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(13) > div:nth-child(3) > ul > li:nth-child(7) > a > dbce	dbce-class-bp
+6078683767795595911	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(13) > div:nth-child(3) > ul > li:nth-child(9) > a > dbce	dbce-class-bp
+7179021246295173660	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(15) > a > dbce	dbce-class-bp
+6707537607471377566	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > a > dbce	dbce-class-bp
+-2760488835988314395	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > div > a:nth-child(3) > dbce	dbce-class-bp
+5941426790329727447	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > div > dbce	dbce-class-bp
+-2451688143950975770	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(3) > li > dbce	dbce-class-bp
+2341812962269640606	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(11) > span > dbce	dbce-class-bp
+3858848328263816830	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(13) > dbce	dbce-class-bp
+197390225328712134	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(15) > span > dbce	dbce-class-bp
+6913304273806732509	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(15) > span > span:nth-child(3) > dbce	dbce-class-bp
+-9112070628821603432	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(17) > span > dbce	dbce-class-bp
+816560759485455591	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(19) > span > dbce	dbce-class-bp
+-5816796380090482927	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > span > dbce	dbce-class-bp
+8029939026992881413	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+356485785527149713	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > span > dbce	dbce-class-bp
+3449585046786615698	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(9) > span > dbce	dbce-class-bp
+2071972661102150454	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(5) > li > dbce	dbce-class-bp
+-6993798193929571169	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(5) > li:nth-child(11) > span > dbce	dbce-class-bp
+-4674431803862668738	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(5) > li:nth-child(13) > span > dbce	dbce-class-bp
+8784032382160298765	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(5) > li:nth-child(15) > dbce	dbce-class-bp
+5380705634426481252	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(5) > li:nth-child(17) > span > dbce	dbce-class-bp
+-8618244815638566230	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(5) > li:nth-child(19) > a > dbce	dbce-class-bp
+6383201337490591411	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(5) > li:nth-child(3) > span > dbce	dbce-class-bp
+370923910544057342	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(5) > li:nth-child(5) > span > dbce	dbce-class-bp
+-1524576414192164883	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(5) > li:nth-child(7) > span > dbce	dbce-class-bp
+-4845500898037838635	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(17) > div:nth-child(3) > ul:nth-child(5) > li:nth-child(9) > span > dbce	dbce-class-bp
+6217706029161854836	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > a > dbce	dbce-class-bp
+8261914739192814912	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul > li > span > dbce	dbce-class-bp
+-1550639202022407218	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul > li:nth-child(11) > span > b > dbce	dbce-class-bp
+3740085492718278002	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul > li:nth-child(11) > span > dbce:nth-child(3)	dbce-class-bp
+-4569811820115917153	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul > li:nth-child(13) > span > b > dbce	dbce-class-bp
+2514947888749601813	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul > li:nth-child(13) > span > dbce:nth-child(3)	dbce-class-bp
+-8502740207222519068	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul > li:nth-child(15) > span > b > dbce	dbce-class-bp
+1156549344146613638	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul > li:nth-child(15) > span > dbce:nth-child(3)	dbce-class-bp
+-6392051732981136923	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul > li:nth-child(3) > span > dbce	dbce-class-bp
+7814943351865749825	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul > li:nth-child(5) > span:nth-child(3) > dbce	dbce-class-bp
+8567922172494374341	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul > li:nth-child(7) > span > dbce	dbce-class-bp
+7344064850827591044	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul > li:nth-child(9) > span > b > dbce	dbce-class-bp
+1303432107557238936	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul > li:nth-child(9) > span > dbce:nth-child(3)	dbce-class-bp
+3948141425428938644	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li > dbce	dbce-class-bp
+502973902455717971	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(11) > a > dbce	dbce-class-bp
+6401209285087847065	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(13) > a > dbce	dbce-class-bp
+396723891993405041	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(15) > a > dbce	dbce-class-bp
+5258639439992195799	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(17) > a > dbce	dbce-class-bp
+-8130229961326141858	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(19) > a > dbce	dbce-class-bp
+4878605917674628331	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(21) > a > dbce	dbce-class-bp
+-2208608040984241636	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(23) > a > dbce	dbce-class-bp
+3720454311216751269	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(25) > a > dbce	dbce-class-bp
+8257907338033759898	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(27) > a > dbce	dbce-class-bp
+7596336544507923897	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > span > dbce	dbce-class-bp
+1411479646013434847	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+2182561761659499770	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > a > dbce	dbce-class-bp
+-2267386798771949766	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(9) > a > dbce	dbce-class-bp
+3008920127903707580	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > a > dbce	dbce-class-bp
+3311748331713736719	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div > ul > li > span > dbce	dbce-class-bp
+4699929473338342336	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(11) > a > dbce	dbce-class-bp
+-6878251405277254638	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(13) > a > dbce	dbce-class-bp
+4106657395086719287	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(15) > a > dbce	dbce-class-bp
+5493301325283239975	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(17) > span > dbce	dbce-class-bp
+-9036407434489556979	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(19) > span > dbce	dbce-class-bp
+1087639355615673593	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(3) > span > dbce	dbce-class-bp
+4736153261367569487	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(5) > a > dbce	dbce-class-bp
+2673908205153433348	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(7) > span > dbce	dbce-class-bp
+-5929410407410604106	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(9) > dbce	dbce-class-bp
+5870189333969381781	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li > span > dbce	dbce-class-bp
+6520172323261603079	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(11) > a > dbce	dbce-class-bp
+3656334391513779434	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(13) > a > dbce	dbce-class-bp
+-1772328726092392783	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(15) > a > dbce	dbce-class-bp
+5651149038403883903	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(17) > a > dbce	dbce-class-bp
+8278990215171916532	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(19) > a > dbce	dbce-class-bp
+725829527394516599	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(3) > span > dbce	dbce-class-bp
+-3369917604177576762	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(5) > a > dbce	dbce-class-bp
+1123464385954196148	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(7) > a > dbce	dbce-class-bp
+-5112660851968879743	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(9) > span > dbce	dbce-class-bp
+8524060802818313520	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div > dbce	dbce-class-bp
+-6896565246244988798	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > ul > li > span > dbce	dbce-class-bp
+1608682616429616444	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > ul > li > span > dbce:nth-child(3)	dbce-class-bp
+-289247469393863542	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(3) > span > dbce	dbce-class-bp
+-6871104404860181769	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(3) > span > dbce:nth-child(3)	dbce-class-bp
+4276059555558390253	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(5) > span > dbce	dbce-class-bp
+-3232700581877844323	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(5) > span > dbce:nth-child(3)	dbce-class-bp
+5554616271844973454	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(7) > span > dbce	dbce-class-bp
+-5986558214185422806	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(7) > span > dbce:nth-child(3)	dbce-class-bp
+6733776951517215896	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(9) > span > dbce	dbce-class-bp
+8020729308067021365	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > ul > li:nth-child(9) > span > dbce:nth-child(3)	dbce-class-bp
+-4904334841580836669	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li > span > dbce	dbce-class-bp
+-435370612237943220	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li > span > dbce:nth-child(3)	dbce-class-bp
+1909642911567256106	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(3) > span > dbce	dbce-class-bp
+8323317466762570617	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(3) > span > dbce:nth-child(3)	dbce-class-bp
+375613634485446243	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(5) > span > dbce	dbce-class-bp
+-7788965093408509255	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(5) > span > dbce:nth-child(3)	dbce-class-bp
+-1598786951584835359	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(7) > span > dbce	dbce-class-bp
+-5656712446060270170	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(5) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(7) > span > dbce:nth-child(3)	dbce-class-bp
+-8452150217995198139	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(7) > a > dbce	dbce-class-bp
+-2417035206781182714	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(7) > div:nth-child(3) > ul > li > a > dbce	dbce-class-bp
+-4810144129415783933	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(7) > div:nth-child(3) > ul > li:nth-child(11) > a > dbce	dbce-class-bp
+2794748333408631473	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(7) > div:nth-child(3) > ul > li:nth-child(3) > a > dbce	dbce-class-bp
+903312359883401373	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(7) > div:nth-child(3) > ul > li:nth-child(5) > a > dbce	dbce-class-bp
+8927160541062157835	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(7) > div:nth-child(3) > ul > li:nth-child(7) > a > dbce	dbce-class-bp
+8515147134272391561	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(7) > div:nth-child(3) > ul > li:nth-child(9) > a > dbce	dbce-class-bp
+-8579994271252773005	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+-5084729314413644503	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(11) > a > dbce	dbce-class-bp
+6981100652122797026	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+-6612614204080421776	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+8441256294946205039	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > a > dbce	dbce-class-bp
+-3507215546243890	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(9) > a > dbce	dbce-class-bp
+7420904113937045087	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > a > dbce	dbce-class-bp
+4072405627477235518	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul > li > span > dbce	dbce-class-bp
+3753483959396178419	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul > li:nth-child(11) > span > dbce	dbce-class-bp
+7841923816552341483	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul > li:nth-child(13) > span > dbce	dbce-class-bp
+-2876367151227480594	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul > li:nth-child(15) > span > dbce	dbce-class-bp
+8148411889298449483	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul > li:nth-child(17) > span > dbce	dbce-class-bp
+6389266318727405338	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul > li:nth-child(19) > span > dbce	dbce-class-bp
+-1095454988209925233	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul > li:nth-child(21) > span > dbce	dbce-class-bp
+3231541495629416871	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul > li:nth-child(3) > span > dbce	dbce-class-bp
+-7458603843104565687	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul > li:nth-child(5) > span > dbce	dbce-class-bp
+-6601043615517437406	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul > li:nth-child(7) > span > dbce	dbce-class-bp
+-7983538592464609932	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul > li:nth-child(9) > span > dbce	dbce-class-bp
+-5727454578799037019	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li > dbce	dbce-class-bp
+2129609127250358267	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(11) > span > dbce	dbce-class-bp
+5143192744566662635	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(13) > span > dbce	dbce-class-bp
+3848425563480270266	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(15) > span > dbce	dbce-class-bp
+-8543780434341975717	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(17) > span > dbce	dbce-class-bp
+5531910026861208332	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(19) > span > dbce	dbce-class-bp
+3450248216945416481	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > span > dbce	dbce-class-bp
+-4654935290527508933	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > span > dbce	dbce-class-bp
+-7061194822415206411	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > span > dbce	dbce-class-bp
+-8504683010356841856	div:nth-child(5) > div > div > div:nth-child(5) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(9) > span > dbce	dbce-class-bp
+-5871798176465860099	div:nth-child(5) > div > div:nth-child(13) > div:nth-child(3) > a > dbce	dbce-class-bp
+-3529866739243422372	div:nth-child(5) > div > div:nth-child(13) > div:nth-child(5) > a > dbce	dbce-class-bp
+-1430411883322965667	div:nth-child(5) > div > div:nth-child(13) > div:nth-child(7) > a > dbce	dbce-class-bp
+-8891925604831829912	div:nth-child(5) > div > div:nth-child(13) > div:nth-child(9) > a > dbce	dbce-class-bp
+2132421419185755827	div:nth-child(5) > div > div:nth-child(13) > p > dbce	dbce-class-bp
+-2985182759979654378	div:nth-child(5) > div > div:nth-child(17) > footer > div > div > div:nth-child(3) > div > a > cyfunction:nth-child(2) > cyfunction:nth-child(3) > svg:nth-child(2) > title > dbce	dbce-class-bp
+8933979137118218808	div:nth-child(5) > div > div:nth-child(17) > footer > div > div > div:nth-child(3) > div > a > cyfunction:nth-child(2) > dbce:nth-child(2)	dbce-class-bp
+8282381004006845494	div:nth-child(5) > div > div:nth-child(17) > footer > div > div > div:nth-child(3) > div > a:nth-child(3) > cyfunction:nth-child(2) > cyfunction:nth-child(3) > svg:nth-child(2) > title > dbce	dbce-class-bp
+-8042576639673646538	div:nth-child(5) > div > div:nth-child(17) > footer > div > div > div:nth-child(3) > div > a:nth-child(3) > cyfunction:nth-child(2) > dbce:nth-child(2)	dbce-class-bp
+-6554032424061406536	div:nth-child(5) > div > div:nth-child(17) > footer > div > div > div:nth-child(3) > div > a:nth-child(5) > cyfunction:nth-child(2) > cyfunction:nth-child(3) > svg:nth-child(2) > title > dbce	dbce-class-bp
+3698951015030808283	div:nth-child(5) > div > div:nth-child(17) > footer > div > div > div:nth-child(3) > div > a:nth-child(5) > cyfunction:nth-child(2) > dbce:nth-child(2)	dbce-class-bp
+3635761746565731185	div:nth-child(5) > div > div:nth-child(17) > footer > div > div > div:nth-child(3) > div:nth-child(3) > a > cyfunction:nth-child(2) > cyfunction:nth-child(3) > svg:nth-child(2) > title > dbce	dbce-class-bp
+-4269657324746616206	div:nth-child(5) > div > div:nth-child(17) > footer > div > div > div:nth-child(3) > div:nth-child(3) > a > cyfunction:nth-child(2) > dbce:nth-child(2)	dbce-class-bp
+-1062530373348950757	div:nth-child(5) > div > div:nth-child(17) > footer > div > div > div:nth-child(3) > div:nth-child(3) > a:nth-child(3) > cyfunction:nth-child(2) > cyfunction:nth-child(3) > svg:nth-child(2) > title > dbce	dbce-class-bp
+-7540384537177487496	div:nth-child(5) > div > div:nth-child(17) > footer > div > div > div:nth-child(3) > div:nth-child(3) > a:nth-child(3) > cyfunction:nth-child(2) > dbce:nth-child(2)	dbce-class-bp
+3959334920682368766	div:nth-child(5) > div > div:nth-child(17) > footer > div > div > div:nth-child(3) > div:nth-child(3) > a:nth-child(5) > cyfunction:nth-child(2) > cyfunction:nth-child(3) > svg:nth-child(2) > title > dbce	dbce-class-bp
+-781202689488556288	div:nth-child(5) > div > div:nth-child(17) > footer > div > div > div:nth-child(3) > div:nth-child(3) > a:nth-child(5) > cyfunction:nth-child(2) > dbce:nth-child(2)	dbce-class-bp
+-1229227095448401193	div:nth-child(5) > div > div:nth-child(17) > footer > div > div > span > dbce	dbce-class-bp
+3560873610735191931	div:nth-child(5) > div > div:nth-child(17) > footer > div:nth-child(3) > button > dbce:nth-child(3)	dbce-class-bp
+8955115876181541965	div:nth-child(5) > div > div:nth-child(17) > footer > div:nth-child(7) > dbce	dbce-class-bp
+-41810041734123641	div:nth-child(5) > div > div:nth-child(17) > footer > nav:nth-child(5) > ul > li > div > dbce	dbce-class-bp
+2705534575725993966	div:nth-child(5) > div > div:nth-child(17) > footer > nav:nth-child(5) > ul > li > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+1044947215946498576	div:nth-child(5) > div > div:nth-child(17) > footer > nav:nth-child(5) > ul > li:nth-child(3) > div > dbce	dbce-class-bp
+4761498196128714436	div:nth-child(5) > div > div:nth-child(17) > footer > nav:nth-child(5) > ul > li:nth-child(3) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+-6677992275500802795	div:nth-child(5) > div > div:nth-child(17) > footer > nav:nth-child(5) > ul > li:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+-3308812218866206843	div:nth-child(5) > div > div:nth-child(17) > footer > nav:nth-child(5) > ul > li:nth-child(5) > div > dbce	dbce-class-bp
+-7307648156473399037	div:nth-child(5) > div > div:nth-child(17) > footer > nav:nth-child(5) > ul > li:nth-child(5) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+-250036294701543545	div:nth-child(5) > div > div:nth-child(17) > footer > nav:nth-child(5) > ul > li:nth-child(5) > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+5525422463236797199	div:nth-child(5) > div > div:nth-child(17) > footer > nav:nth-child(5) > ul > li:nth-child(5) > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+-437968988745241623	div:nth-child(5) > div > div:nth-child(17) > footer > nav:nth-child(5) > ul > li:nth-child(5) > ul:nth-child(3) > li:nth-child(7) > a > dbce	dbce-class-bp
+-1904673663507104613	div:nth-child(5) > div > div:nth-child(21) > div > a:nth-child(13) > dbce	dbce-class-bp
+7192931933995035796	div:nth-child(5) > div > div:nth-child(21) > div > a:nth-child(17) > dbce	dbce-class-bp
+-2969750923068425027	div:nth-child(5) > div > div:nth-child(21) > div > a:nth-child(21) > dbce	dbce-class-bp
+-1489822695454201744	div:nth-child(5) > div > div:nth-child(21) > div > a:nth-child(25) > dbce	dbce-class-bp
+4747834325148155861	div:nth-child(5) > div > div:nth-child(21) > div > a:nth-child(29) > dbce	dbce-class-bp
+-6022868930608958992	div:nth-child(5) > div > div:nth-child(21) > div > a:nth-child(33) > dbce	dbce-class-bp
+-2075087733486184494	div:nth-child(5) > div > div:nth-child(21) > div > a:nth-child(5) > dbce	dbce-class-bp
+4429908659865748721	div:nth-child(5) > div > div:nth-child(21) > div > a:nth-child(9) > dbce	dbce-class-bp
+5474622686613991812	div:nth-child(5) > div > div:nth-child(21) > div > dbce:nth-child(11)	dbce-class-bp
+-7846751210703946389	div:nth-child(5) > div > div:nth-child(21) > div > dbce:nth-child(15)	dbce-class-bp
+1787367889829880730	div:nth-child(5) > div > div:nth-child(21) > div > dbce:nth-child(19)	dbce-class-bp
+-4288179468003503037	div:nth-child(5) > div > div:nth-child(21) > div > dbce:nth-child(23)	dbce-class-bp
+1244533937369974577	div:nth-child(5) > div > div:nth-child(21) > div > dbce:nth-child(31)	dbce-class-bp
+-1661766307804244932	div:nth-child(5) > div > div:nth-child(21) > div > dbce:nth-child(7)	dbce-class-bp
+-5920327295093320708	div:nth-child(5) > div > div:nth-child(21) > div > span:nth-child(35) > a:nth-child(3) > dbce	dbce-class-bp
+-3569264200884628400	div:nth-child(5) > div > div:nth-child(21) > div > span:nth-child(35) > dbce	dbce-class-bp
+-2533844063298443192	div:nth-child(5) > div > div:nth-child(21) > div > strong > dbce	dbce-class-bp
+-934282706410598361	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > a:nth-child(11) > dbce	dbce-class-bp
+-4825626822699048949	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > a:nth-child(15) > dbce	dbce-class-bp
+8789526193542170798	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > a:nth-child(19) > dbce	dbce-class-bp
+-7777488593437455826	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > a:nth-child(19) > dbce:nth-child(3)	dbce-class-bp
+-2806404476536476847	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > a:nth-child(23) > dbce	dbce-class-bp
+-3284787681495939	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > a:nth-child(23) > dbce:nth-child(3)	dbce-class-bp
+-1702769749242591941	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > a:nth-child(27) > dbce	dbce-class-bp
+6963975014738571068	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+268239595121465699	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > a:nth-child(31) > dbce	dbce-class-bp
+5233603150806849724	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > a:nth-child(35) > dbce	dbce-class-bp
+3127630367197534299	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > a:nth-child(39) > dbce	dbce-class-bp
+7641963347195022464	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > a:nth-child(7) > dbce	dbce-class-bp
+272219551437740576	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > dbce	dbce-class-bp
+4716855410076104657	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > dbce:nth-child(13)	dbce-class-bp
+6517097756618067028	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > dbce:nth-child(17)	dbce-class-bp
+-2353078696146232889	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > dbce:nth-child(21)	dbce-class-bp
+-5611030044585365052	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > dbce:nth-child(25)	dbce-class-bp
+-4161310129793090085	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > dbce:nth-child(29)	dbce-class-bp
+2081881363502965801	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > dbce:nth-child(33)	dbce-class-bp
+-7340569820096342230	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > dbce:nth-child(37)	dbce-class-bp
+2818646354280151450	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > dbce:nth-child(5)	dbce-class-bp
+8692150290017266457	div:nth-child(5) > div > div:nth-child(21) > div:nth-child(3) > dbce:nth-child(9)	dbce-class-bp
+-5716387814770768502	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > button:nth-child(5) > span > dbce	dbce-class-bp
+4261516222711801551	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > div > a > svg > title > dbce	dbce-class-bp
+3936052179674277408	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > div:nth-child(7) > button:nth-child(3) > dbce:nth-child(3)	dbce-class-bp
+-8688050067928384095	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > div:nth-child(7) > div > form > div > div > span > dbce	dbce-class-bp
+-556441445778631571	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > div:nth-child(7) > div > form > div > select:nth-child(3) > option > dbce	dbce-class-bp
+-3022886694075330383	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > div:nth-child(7) > div > form > div > select:nth-child(3) > option:nth-child(11) > dbce	dbce-class-bp
+-4004370728582434860	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > div:nth-child(7) > div > form > div > select:nth-child(3) > option:nth-child(13) > dbce	dbce-class-bp
+6884841357164341573	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > div:nth-child(7) > div > form > div > select:nth-child(3) > option:nth-child(3) > dbce	dbce-class-bp
+-9115948383004396678	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > div:nth-child(7) > div > form > div > select:nth-child(3) > option:nth-child(5) > dbce	dbce-class-bp
+1527106920320824785	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > div:nth-child(7) > div > form > div > select:nth-child(3) > option:nth-child(7) > dbce	dbce-class-bp
+3437386410764074702	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > div:nth-child(7) > div > form > div > select:nth-child(3) > option:nth-child(9) > dbce	dbce-class-bp
+-4126745453193500253	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > div:nth-child(7) > div > form > div:nth-child(3) > button > span > span > dbce	dbce-class-bp
+617630586043295586	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > a > div > dbce	dbce-class-bp
+-8367287283200885532	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > a > span:nth-child(3) > dbce	dbce-class-bp
+-2576571416342185986	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > div > dbce	dbce-class-bp
+575323819948708894	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li > div > dbce	dbce-class-bp
+4432000607486791476	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+-2564593303296917422	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+-3705286145280578950	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+-3240474015929644884	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(7) > a > dbce	dbce-class-bp
+-2578364319132517566	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(9) > a > dbce	dbce-class-bp
+1964377699561781911	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div > a > dbce	dbce-class-bp
+-5683710724569940894	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+8367724156727679	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > div > dbce	dbce-class-bp
+7166419259564010221	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+6713292525428294370	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(11) > a > dbce	dbce-class-bp
+-8290600149997312330	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+4221023554664656718	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+8601769419244017720	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(7) > a > dbce	dbce-class-bp
+464726703956388787	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(9) > a > dbce	dbce-class-bp
+7988817205148342170	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > div > dbce	dbce-class-bp
+-7710265817535831732	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+2309672710918713421	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+3309581278611130468	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(5) > ul > li > a > span > dbce	dbce-class-bp
+5630020402024544311	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > div:nth-child(5) > ul > li:nth-child(3) > a > span > dbce	dbce-class-bp
+-1386363094781901294	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > a > span:nth-child(3) > dbce	dbce-class-bp
+-8809640095936098431	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > div > dbce	dbce-class-bp
+-6893436231255108404	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li > div > a > dbce	dbce-class-bp
+1821334410939062513	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+5691013255419347080	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(11) > a > dbce	dbce-class-bp
+-8795055593381262661	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+2187986451170279038	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+163685084617479729	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(7) > a > dbce	dbce-class-bp
+7811714230250575189	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(9) > a > dbce	dbce-class-bp
+-5856270139831503421	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div > a > dbce	dbce-class-bp
+8554792369996914371	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+5164864719619293341	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+-4832436524912545275	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+-4373074436305347694	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > div > a > dbce	dbce-class-bp
+-4963089686459358496	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+-8757062826243165524	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+5123125020539677729	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+6301173099263479168	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(11) > a > span:nth-child(3) > dbce	dbce-class-bp
+-3663090991807292829	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > a > span:nth-child(3) > dbce	dbce-class-bp
+-5429104791590752711	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > div > dbce	dbce-class-bp
+-8802512522190688270	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li > div > a > dbce	dbce-class-bp
+-7317073117012117336	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+-3172543842814967013	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+-3269119059284107318	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div > a > dbce	dbce-class-bp
+-6469338307442709228	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li > a > dbce:nth-child(3)	dbce-class-bp
+743058073467126630	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li > a > strong > dbce	dbce-class-bp
+-5283499062883318339	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > a > dbce:nth-child(3)	dbce-class-bp
+7937898560138555831	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > a > strong > dbce	dbce-class-bp
+-4721206289514524905	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > a > dbce:nth-child(3)	dbce-class-bp
+211068960888245740	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > a > strong > dbce	dbce-class-bp
+-835790827986376308	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > div > a > dbce	dbce-class-bp
+1850487690717844254	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+6186152168882361794	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(11) > a > dbce	dbce-class-bp
+2634057155097702526	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(15) > a > dbce	dbce-class-bp
+-2913098606620718203	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(17) > a > dbce	dbce-class-bp
+-6460542554412758295	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(19) > a > dbce	dbce-class-bp
+-6829028747354009220	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(21) > a > dbce	dbce-class-bp
+4140471420673251533	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(23) > a > dbce	dbce-class-bp
+6062038647559657052	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+-6699157341001457553	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+6772062837350040541	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(7) > a > dbce	dbce-class-bp
+7623670685652087730	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li:nth-child(9) > a > dbce	dbce-class-bp
+-7965972385855890972	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > div > dbce	dbce-class-bp
+8545812477774689347	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(3) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > ul:nth-child(3) > li > dbce	dbce-class-bp
+-6335669730013113491	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > a > span:nth-child(3) > dbce	dbce-class-bp
+7896731789661160123	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > div > dbce	dbce-class-bp
+-8540317750886807772	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li > div > a > dbce	dbce-class-bp
+-438833491967553210	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+7496768414928922196	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(11) > a > dbce	dbce-class-bp
+6197644809043605951	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(13) > a > dbce	dbce-class-bp
+4815184977645132097	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(15) > a > dbce	dbce-class-bp
+2276329099477639385	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(17) > a > dbce	dbce-class-bp
+-1869034081846100583	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(19) > a > dbce	dbce-class-bp
+-5325291977067044751	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+-4462390718215152235	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+36832338579382050	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(7) > a > dbce	dbce-class-bp
+-1119468666141753604	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(9) > a > dbce	dbce-class-bp
+8760556079803347024	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div > dbce	dbce-class-bp
+-7756862494964037009	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+-567691948227230369	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+550883832462032246	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+-6352062567874110989	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > a > dbce	dbce-class-bp
+955317955543761423	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(9) > a > dbce	dbce-class-bp
+5589603101748176621	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > div > a > dbce	dbce-class-bp
+-6523079801071672210	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+7321532784449973619	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > div > a > dbce	dbce-class-bp
+-1376806779377720419	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(5) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+5192140144149638359	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(7) > a > span:nth-child(3) > dbce	dbce-class-bp
+-2595716382284491481	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(7) > div:nth-child(3) > div > dbce	dbce-class-bp
+7599405436727934072	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li > div > a > dbce	dbce-class-bp
+-2562546661883083463	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+-6385402446519983524	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(11) > a > dbce	dbce-class-bp
+6839847542399302590	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(13) > a > dbce	dbce-class-bp
+4173039680305003577	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+8933946516108446216	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+5502970647447411860	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(7) > a > dbce	dbce-class-bp
+3223124347783498189	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li:nth-child(9) > a > dbce	dbce-class-bp
+-7045508062134444796	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div > a > dbce	dbce-class-bp
+-8814291707786795462	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+5735992610796117827	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(9) > a > span:nth-child(3) > dbce	dbce-class-bp
+7773707463051867124	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(9) > div:nth-child(3) > div > dbce	dbce-class-bp
+-119174695918221327	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li > div > a > dbce	dbce-class-bp
+-2837606846437311773	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+7212580219685598931	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div > a > dbce	dbce-class-bp
+2669639667510898155	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+1668724699699024967	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(11) > a > dbce	dbce-class-bp
+6899830166193734035	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+9084573595914999750	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+637985110224157100	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > a > dbce	dbce-class-bp
+5064087116611753831	div:nth-child(5) > div > div:nth-child(3) > header:nth-child(3) > nav:nth-child(3) > ul > li:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > ul:nth-child(3) > li:nth-child(9) > a > dbce	dbce-class-bp
+7309746150473617363	div:nth-child(5) > div > div:nth-child(5) > div > div > div > span > a:nth-child(3) > span > dbce	dbce-class-bp
+8521991787950932198	div:nth-child(5) > div > div:nth-child(5) > div > div > div > span > dbce	dbce-class-bp
+4492382665654061601	div:nth-child(5) > div > div:nth-child(5) > div > div > div > span:nth-child(11) > a:nth-child(3) > span > dbce	dbce-class-bp
+-7896447255833893337	div:nth-child(5) > div > div:nth-child(5) > div > div > div > span:nth-child(11) > dbce	dbce-class-bp
+-8560605891513094088	div:nth-child(5) > div > div:nth-child(5) > div > div > div > span:nth-child(3) > a:nth-child(3) > span > dbce	dbce-class-bp
+-4091569689982149713	div:nth-child(5) > div > div:nth-child(5) > div > div > div > span:nth-child(3) > dbce	dbce-class-bp
+-2768655732067174243	div:nth-child(5) > div > div:nth-child(5) > div > div > div > span:nth-child(5) > a:nth-child(3) > span > dbce	dbce-class-bp
+-2114307259610110570	div:nth-child(5) > div > div:nth-child(5) > div > div > div > span:nth-child(5) > dbce	dbce-class-bp
+-6856288530087228754	div:nth-child(5) > div > div:nth-child(5) > div > div > div > span:nth-child(7) > a:nth-child(3) > span > dbce	dbce-class-bp
+377727903260485758	div:nth-child(5) > div > div:nth-child(5) > div > div > div > span:nth-child(7) > dbce	dbce-class-bp
+-5248332719516014729	div:nth-child(5) > div > div:nth-child(5) > div > div > div > span:nth-child(9) > a:nth-child(3) > span > dbce	dbce-class-bp
+6096468811042696575	div:nth-child(5) > div > div:nth-child(5) > div > div > div > span:nth-child(9) > dbce	dbce-class-bp
+7906591684382425701	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div > a:nth-child(5) > strong > dbce	dbce-class-bp
+5431093143156807461	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div > button > dbce	dbce-class-bp
+-7779464619182791816	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-7197758649458221539	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > a > dbce:nth-child(3)	dbce-class-bp
+-3083061030306011886	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+4727890250649926754	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > a:nth-child(5) > dbce	dbce-class-bp
+-5039978319091946213	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > a:nth-child(7) > dbce	dbce-class-bp
+-8240409260355121603	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > a:nth-child(9) > dbce	dbce-class-bp
+-5292486622039248301	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > button > div > span > dbce	dbce-class-bp
+-7880695105052312064	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > button:nth-child(5) > div > span > dbce	dbce-class-bp
+-9008263244742908217	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure > a > dbce	dbce-class-bp
+-8535575434826786303	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+5254612618736867114	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-3111391449817360309	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+2459675645358109902	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(11) > a > dbce	dbce-class-bp
+7181686743725968349	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(11) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-2360967435552757567	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(11) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+3639271781075037775	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(11) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+2196805868681144313	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(13) > a > dbce	dbce-class-bp
+-3162512667600083336	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(13) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+2793168868769416946	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(13) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+3121611032597671527	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(13) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+8236147128983278109	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(15) > a > dbce	dbce-class-bp
+-6577690681744997943	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(15) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+7338321639139066947	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(15) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-5836847438243817055	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(15) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-514463910701438756	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(17) > a > dbce	dbce-class-bp
+1300350543946403848	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(17) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-7472119251694015537	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(17) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+4443703042924571252	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(17) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+8388215463950198084	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(19) > a > dbce	dbce-class-bp
+653854942627905932	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(19) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+7019725078679154777	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(19) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+3280303451532649771	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(19) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+4256198327911782650	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(21) > a > dbce	dbce-class-bp
+-7477586057968999788	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(21) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-1721192206281079759	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(21) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+3303402770854157296	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(21) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+186845588512774218	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(23) > a > dbce	dbce-class-bp
+3497015557785707802	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(23) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+886041423314708775	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(23) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+4391534277676547611	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(23) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+5296063001655814146	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(25) > a > dbce	dbce-class-bp
+1716341225146541263	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(25) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-8984441539057584420	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(25) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-1518139646286929765	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(25) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-336917693553659982	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(27) > a > dbce	dbce-class-bp
+-100300740063038565	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(27) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+8275954099338291372	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(27) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+8632021210445093244	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(27) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+16345840608015606	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(29) > a > dbce	dbce-class-bp
+-9221704780146045019	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(29) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-3187230101221690199	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(29) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+3364130769060782307	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(29) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+4013656525154819280	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(3) > a > dbce	dbce-class-bp
+-2302613814030136404	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(3) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+2004972710345282909	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(3) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-2017803918831806739	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(3) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+6091726157636161932	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(31) > a > dbce	dbce-class-bp
+8137651264313253942	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(31) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-8118326865073141396	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(31) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+1414309471585210180	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(31) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+1495909751164281769	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(33) > a > dbce	dbce-class-bp
+5576429133105530683	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(33) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+8079882063867210420	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(33) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+987124034729952424	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(33) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-3506447968300086149	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(35) > a > dbce	dbce-class-bp
+-5765401759426877051	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(35) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+7468734924207750856	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(35) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+4505439676612923063	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(35) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-3960478675132861398	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(37) > a > dbce	dbce-class-bp
+4550570979996550194	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(37) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-1168623503436604344	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(37) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-1930534827102643383	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(37) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+4583406575863044	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(39) > a > dbce	dbce-class-bp
+2635798014913301646	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(39) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-3092123507615918146	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(39) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+1852425660073447877	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(39) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-5683409685711517723	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(41) > a > dbce	dbce-class-bp
+465768823242427960	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(41) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-660619102652041902	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(41) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-3604165170607672239	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(41) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-2745615633046127155	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(43) > a > dbce	dbce-class-bp
+-4616283005223912105	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(43) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+562750410431262215	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(43) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+441328851945806599	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(43) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+4485745993465207170	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(45) > a > dbce	dbce-class-bp
+-1284212808829635586	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(45) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+6093869633920762826	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(45) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-3018633353225748553	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(45) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+6102185459783031229	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(47) > a > dbce	dbce-class-bp
+6105582792229555799	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(47) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-4471342458102885725	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(47) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+8694139705854723307	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(47) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-1060649798599373528	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(49) > a > dbce	dbce-class-bp
+1649370355138738675	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(49) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+7637479929656389546	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(49) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-1414530008724818446	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(49) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-3634252686603739744	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(5) > a > dbce	dbce-class-bp
+1510373429398397280	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(5) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+4660590437178557855	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(5) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+2045962137529377464	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(5) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+1691801332432766772	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(51) > a > dbce	dbce-class-bp
+-7423342757434175259	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(51) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-5176605375947813018	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(51) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+5154278033687265340	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(51) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-5835622687548661583	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(53) > a > dbce	dbce-class-bp
+3052705516121689956	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(53) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+4368978214432369945	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(53) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+7916101544228587043	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(53) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-689516214418534116	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(55) > a > dbce	dbce-class-bp
+4862360460050157458	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(55) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-5362897121794075517	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(55) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+2816783712956912016	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(55) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+5544951541115767514	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(57) > a > dbce	dbce-class-bp
+-5661905740031667854	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(57) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-8493336630148281791	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(57) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+4117747126254405362	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(57) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-7126430457898113999	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(59) > a > dbce	dbce-class-bp
+-2017287321861088110	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(59) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+5032946561845903645	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(59) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-5755869938295361436	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(59) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-6124085985186868990	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(61) > a > dbce	dbce-class-bp
+-6243446391412511198	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(61) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+1843614223618286913	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(61) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+8006272184072704785	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(61) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-2470868734734433603	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(63) > a > dbce	dbce-class-bp
+-9031765795300514697	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(63) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-6063488274895664162	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(63) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-5631709631312088452	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(63) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+8967317061971511679	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(65) > a > dbce	dbce-class-bp
+1525907783209277061	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(65) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-9223212162426355798	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(65) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-2694127336579924033	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(65) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+4379039093099079270	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(67) > a > dbce	dbce-class-bp
+556451121176232828	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(67) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-4212960145620224201	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(67) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-7743550732084936712	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(67) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-4459798400057899230	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(69) > a > dbce	dbce-class-bp
+6869497110142129831	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(69) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+1179960956769597491	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(69) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-8148841168244165586	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(69) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+3657593193652590017	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(7) > a > dbce	dbce-class-bp
+1867396801169307965	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(7) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-5385955606594558372	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(7) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+3353222887783588408	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(7) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-3489282299433831570	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(71) > a > dbce	dbce-class-bp
+-394034866723088918	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(71) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+2534443838475471932	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(71) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-3084089545396564773	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(71) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+1486851947649235652	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(73) > a > dbce	dbce-class-bp
+7722823345663904286	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(73) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+6301316252514342131	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(73) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+3862126272128657639	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(73) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+3653763959770369482	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(75) > a > dbce	dbce-class-bp
+-9148010745173083101	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(75) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-6832793209637128321	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(75) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+7634836461233591219	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(75) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-1395297923626218959	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(77) > a > dbce	dbce-class-bp
+8013417084011667743	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(77) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-7929310190667515877	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(77) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-7983126441282648303	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(77) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-880244086048217463	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(79) > a > dbce	dbce-class-bp
+-481045561296981917	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(79) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-2387076929410228218	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(79) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+8814022170395307496	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(79) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-837241882693047676	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(9) > a > dbce	dbce-class-bp
+7282839652622418671	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(9) > figcaption:nth-child(3) > div > dbce:nth-child(3)	dbce-class-bp
+-4553880647809812835	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(9) > figcaption:nth-child(3) > div:nth-child(3) > a:nth-child(3) > dbce	dbce-class-bp
+-4521401416747144617	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div > div > div:nth-child(3) > figure:nth-child(9) > figcaption:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+5965615838562396494	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div > div > ul > li > dbce:nth-child(3)	dbce-class-bp
+-6254983573816184550	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div > div > ul > li:nth-child(11) > dbce:nth-child(3)	dbce-class-bp
+4722277283141664572	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div > div > ul > li:nth-child(3) > dbce:nth-child(3)	dbce-class-bp
+-3763829053146191007	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div > div > ul > li:nth-child(5) > dbce:nth-child(3)	dbce-class-bp
+-3685139725207590483	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div > div > ul > li:nth-child(7) > dbce:nth-child(3)	dbce-class-bp
+2094348411975629198	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div > div > ul > li:nth-child(9) > dbce:nth-child(3)	dbce-class-bp
+-8329011719323197013	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div > div:nth-child(3) > a:nth-child(7) > dbce	dbce-class-bp
+1314033191268797988	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div > div:nth-child(3) > dbce:nth-child(13)	dbce-class-bp
+6546585280035793912	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div > div:nth-child(3) > dbce:nth-child(5)	dbce-class-bp
+1885440676001874843	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div > div:nth-child(3) > dbce:nth-child(9)	dbce-class-bp
+9159684840931176676	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > ul > li > dbce	dbce-class-bp
+810895570391786307	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > ul > li:nth-child(3) > dbce	dbce-class-bp
+6017261738771809891	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > a > dbce	dbce-class-bp
+6773348747701381727	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > span:nth-child(3) > dbce:nth-child(3)	dbce-class-bp
+-8377377421162897823	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > div:nth-child(7) > dbce	dbce-class-content
+-6748137255254752808	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div > h1:nth-child(5) > dbce	dbce-class-content
+-8784340357095715662	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > div > dbce	dbce-class-bp
+-7934398664136567120	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(3) > p:nth-child(3) > a > dbce	dbce-class-bp
+5204453211189266845	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(3) > p:nth-child(3) > a:nth-child(5) > dbce	dbce-class-bp
+2100286466475035740	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(3) > p:nth-child(3) > dbce:nth-child(3)	dbce-class-bp
+4228757253198134687	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > b > dbce	dbce-class-bp
+4540318374195851316	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > p:nth-child(11) > a > dbce:nth-child(3)	dbce-class-bp
+3314503901090073098	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > p:nth-child(13) > a > dbce:nth-child(3)	dbce-class-bp
+-8863965283661266611	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > p:nth-child(3) > a > dbce:nth-child(3)	dbce-class-bp
+2208393476190249314	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > p:nth-child(5) > a > dbce:nth-child(3)	dbce-class-bp
+-2215987636463483488	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > p:nth-child(7) > a > dbce:nth-child(3)	dbce-class-bp
+-1255531619641033682	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(3) > p:nth-child(9) > a > dbce:nth-child(3)	dbce-class-bp
+715180632389296802	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > span > table > tr > th > dbce	dbce-class-bp
+4955401526654477912	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > span > table > tr:nth-child(3) > td > dbce	dbce-class-bp
+-7697909920419026853	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > span > table > tr:nth-child(3) > td:nth-child(3) > a:nth-child(5) > dbce	dbce-class-bp
+4274274023837103972	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > span > table > tr:nth-child(3) > td:nth-child(3) > dbce	dbce-class-bp
+-7166449281007899263	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > span > table > tr:nth-child(3) > td:nth-child(3) > dbce:nth-child(3)	dbce-class-bp
+-6262245613027041289	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > span > table > tr:nth-child(5) > td > dbce	dbce-class-bp
+4447210575316213920	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > span > table > tr:nth-child(5) > td:nth-child(3) > dbce	dbce-class-bp
+3845608993917880869	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > table:nth-child(5) > tr > th > dbce	dbce-class-bp
+-16700025447191115	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > table:nth-child(5) > tr:nth-child(11) > td > i > dbce	dbce-class-bp
+7568101966283243722	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > table:nth-child(5) > tr:nth-child(3) > td > dbce	dbce-class-bp
+6560050938736844631	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > table:nth-child(5) > tr:nth-child(3) > td:nth-child(3) > dbce	dbce-class-bp
+1729393652619756581	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > table:nth-child(5) > tr:nth-child(5) > td > dbce	dbce-class-bp
+1583712715158602011	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > table:nth-child(5) > tr:nth-child(5) > td:nth-child(3) > dbce	dbce-class-bp
+-2418910879789999875	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > table:nth-child(5) > tr:nth-child(7) > td > dbce	dbce-class-bp
+1531781181193180098	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > table:nth-child(5) > tr:nth-child(7) > td:nth-child(3) > dbce	dbce-class-bp
+5848643659421029814	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > table:nth-child(5) > tr:nth-child(9) > td > dbce	dbce-class-bp
+3371516637607378636	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(5) > table:nth-child(5) > tr:nth-child(9) > td:nth-child(3) > dbce	dbce-class-bp
+365868107645237532	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(7) > div > dbce	dbce-class-bp
+7734637466513411247	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > div > a > dbce	dbce-class-bp
+8587776311614971033	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > a > span > dbce	dbce-class-bp
+5528797031028262169	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > p:nth-child(7) > dbce	dbce-class-bp
+-7400807791761520586	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > p:nth-child(7) > dbce:nth-child(5)	dbce-class-bp
+8588325359128499911	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(13) > h2 > dbce	dbce-class-bp
+-7286076603455965067	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(13) > ul:nth-child(3) > li > a > span > dbce	dbce-class-bp
+8145974806309730154	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(13) > ul:nth-child(3) > li:nth-child(3) > a > span > dbce	dbce-class-bp
+1043511354033497193	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(13) > ul:nth-child(3) > li:nth-child(5) > a > span > dbce	dbce-class-bp
+-8556085768260774522	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(13) > ul:nth-child(3) > li:nth-child(7) > a > span > dbce	dbce-class-bp
+-9223132308191411637	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(13) > ul:nth-child(3) > li:nth-child(9) > a > span > dbce	dbce-class-bp
+1748881412941070507	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(15) > div > dbce	dbce-class-bp
+6012657629804036074	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(21) > div > a:nth-child(3) > dbce	dbce-class-bp
+-8406227864598454005	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(21) > div > div > a > dbce	dbce-class-content
+2884198910013231850	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(21) > div > div > a:nth-child(3) > dbce	dbce-class-content
+-2788526068875777398	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(21) > div > div > a:nth-child(5) > dbce	dbce-class-content
+-5383128067889372025	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(21) > div:nth-child(5) > div > a:nth-child(11) > dbce	dbce-class-bp
+9205603202441208549	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(21) > div:nth-child(5) > div > span:nth-child(3) > dbce	dbce-class-bp
+4531405437162125361	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(21) > div:nth-child(5) > div > strong:nth-child(7) > dbce	dbce-class-bp
+1360967458571527691	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(21) > div:nth-child(5) > div:nth-child(3) > div > a > dbce:nth-child(3)	dbce-class-bp
+2004676488238397304	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(21) > div:nth-child(5) > div:nth-child(3) > div > a > div > dbce	dbce-class-bp
+5566861866405742917	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(21) > div:nth-child(5) > div:nth-child(3) > div > a:nth-child(3) > h2 > dbce	dbce-class-bp
+6005030555340386130	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(21) > div:nth-child(5) > div:nth-child(3) > div > span:nth-child(5) > a:nth-child(3) > dbce	dbce-class-bp
+6357752945157048514	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(21) > div:nth-child(5) > div:nth-child(3) > div > span:nth-child(5) > dbce	dbce-class-bp
+-3938336677160980800	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > div > div > h2 > dbce	dbce-class-content
+-4556033956361686305	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > div > div > table:nth-child(3) > tr > td > dbce	dbce-class-content
+-8902602145898013389	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > div > div > table:nth-child(3) > tr > td:nth-child(3) > a > dbce	dbce-class-content
+-5660938971891323355	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > div > div > table:nth-child(3) > tr:nth-child(3) > td:nth-child(3) > a > dbce	dbce-class-content
+-1309038616220316797	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > div > div > table:nth-child(3) > tr:nth-child(5) > td:nth-child(3) > a > dbce	dbce-class-content
+-3888329354558944757	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > div > div > table:nth-child(3) > tr:nth-child(7) > td:nth-child(3) > dbce	dbce-class-content
+6156234012046470866	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > dbce	dbce-class-bp
+7829496363284944466	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(5) > dbce:nth-child(3)	dbce-class-bp
+-4615063702443597385	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(5) > span > dbce	dbce-class-bp
+3127939370915706889	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > div:nth-child(7) > form:nth-child(7) > button:nth-child(5) > span:nth-child(3) > dbce	dbce-class-bp
+-4021036135313816594	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > div:nth-child(7) > form:nth-child(7) > label > dbce:nth-child(3)	dbce-class-bp
+-927140783950214636	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > div:nth-child(7) > form:nth-child(7) > span:nth-child(3) > span > span > dbce	dbce-class-bp
+5522216049651356732	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > div:nth-child(7) > span > cyfunction:nth-child(2) > dbce:nth-child(2)	dbce-class-bp
+-4616667614525390503	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(3) > form:nth-child(3) > strong:nth-child(3) > dbce	dbce-class-content
+-5784367080357055878	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(9) > dbce	dbce-class-content
+2152513569999199027	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(9) > dbce:nth-child(13)	dbce-class-content
+-698962549703040956	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(9) > dbce:nth-child(19)	dbce-class-content
+-7805570138251203418	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(9) > dbce:nth-child(25)	dbce-class-content
+2397927205331569800	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(9) > dbce:nth-child(31)	dbce-class-content
+7872539329190617816	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > div:nth-child(9) > dbce:nth-child(7)	dbce-class-content
+3918052470844882527	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > h2:nth-child(5) > dbce	dbce-class-content
+-2670843292346427176	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > p:nth-child(7) > dbce:nth-child(11)	dbce-class-content
+-6811691510276909857	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > p:nth-child(7) > dbce:nth-child(13)	dbce-class-content
+-2343945598200773390	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > p:nth-child(7) > dbce:nth-child(17)	dbce-class-content
+-3838609007973472843	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > p:nth-child(7) > dbce:nth-child(3)	dbce-class-content
+-4338724308742667316	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > p:nth-child(7) > dbce:nth-child(5)	dbce-class-content
+1022539046308359721	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > p:nth-child(7) > dbce:nth-child(7)	dbce-class-content
+475424913854175034	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > p:nth-child(7) > strong > dbce	dbce-class-content
+3100842491956784524	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > p:nth-child(7) > strong:nth-child(15) > dbce	dbce-class-content
+-7199648005847116851	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div > p:nth-child(7) > strong:nth-child(9) > dbce	dbce-class-content
+8525232520043048124	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div > div > div > h2 > dbce	dbce-class-content
+-7150399115257795699	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(11) > div > div > a > dbce	dbce-class-bp
+-5541765643946658146	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(11) > div > div > a:nth-child(5) > dbce	dbce-class-content
+-5297609253147717777	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(11) > div > div > p:nth-child(9) > dbce	dbce-class-content
+6913785476859163249	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(11) > div > div:nth-child(3) > div > dbce	dbce-class-content
+-1450779873720671791	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(11) > div > div:nth-child(3) > div > dbce:nth-child(7)	dbce-class-content
+-4236286227686952926	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(13) > div > a > dbce	dbce-class-bp
+696364155943816107	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(13) > div:nth-child(3) > a > dbce	dbce-class-bp
+5357166553817853929	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(13) > div:nth-child(9) > dbce	dbce-class-bp
+-66561267426185929	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(17) > div > div > a > dbce	dbce-class-bp
+8588372750815859766	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(17) > div > div > a:nth-child(5) > dbce	dbce-class-content
+3353113641835061461	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(17) > div > div > p:nth-child(9) > dbce	dbce-class-content
+-1101360674277238378	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(17) > div > div:nth-child(3) > div > dbce	dbce-class-content
+-8962764733551319148	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(17) > div > div:nth-child(3) > div > dbce:nth-child(5)	dbce-class-content
+9129877846283561411	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(17) > div > div:nth-child(3) > div > dbce:nth-child(9)	dbce-class-content
+-6635983481803588377	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(19) > div > a > dbce	dbce-class-bp
+7083766761281409769	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(19) > div:nth-child(3) > a > dbce	dbce-class-bp
+-5832969374177620122	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(19) > div:nth-child(9) > dbce	dbce-class-bp
+-2415651414186484641	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(23) > div > div > a > dbce	dbce-class-bp
+-4414411329617909137	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(23) > div > div > a:nth-child(5) > dbce	dbce-class-content
+7284480744182529893	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(23) > div > div > p:nth-child(9) > dbce	dbce-class-content
+-2658661648945871569	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(23) > div > div:nth-child(3) > div > dbce	dbce-class-content
+-606456025271447404	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(23) > div > div:nth-child(3) > div > dbce:nth-child(13)	dbce-class-content
+7356463835682003127	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(23) > div > div:nth-child(3) > div > dbce:nth-child(19)	dbce-class-content
+1416558296869540152	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(23) > div > div:nth-child(3) > div > dbce:nth-child(21)	dbce-class-content
+3174021204436665483	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(23) > div > div:nth-child(3) > div > dbce:nth-child(23)	dbce-class-content
+2320705918552920940	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(23) > div > div:nth-child(3) > div > dbce:nth-child(29)	dbce-class-content
+1623384845574992459	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(23) > div > div:nth-child(3) > div > dbce:nth-child(7)	dbce-class-content
+-620627397933921625	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(25) > div > a > dbce	dbce-class-bp
+-2466438901777104488	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(25) > div:nth-child(3) > a > dbce	dbce-class-bp
+136445075974809789	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(25) > div:nth-child(9) > dbce	dbce-class-bp
+-4305408259039482039	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(29) > div > div > a > dbce	dbce-class-bp
+-2040189210034176314	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(29) > div > div > a:nth-child(5) > dbce	dbce-class-content
+-7019325971234233954	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(29) > div > div > p:nth-child(11) > dbce	dbce-class-content
+-8786815973521333644	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(29) > div > div:nth-child(3) > div > dbce	dbce-class-content
+3860851532974484485	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(29) > div > div:nth-child(3) > div > dbce:nth-child(5)	dbce-class-content
+2551623197197222781	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(31) > div > a > dbce	dbce-class-bp
+-766566537508653115	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(31) > div:nth-child(3) > a > dbce	dbce-class-bp
+-851698480960625416	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(31) > div:nth-child(9) > dbce	dbce-class-bp
+2559556341853623503	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(33) > div > div > a:nth-child(5) > dbce	dbce-class-bp
+-5362494322761723646	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(33) > div > div > h2 > dbce	dbce-class-bp
+-8055160443221272454	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(33) > div > div > p:nth-child(3) > dbce	dbce-class-bp
+37417509788651731	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(35) > div > div > h2 > dbce	dbce-class-content
+-6607670039764480368	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(39) > div > div > a > dbce	dbce-class-bp
+-8859627512016895328	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(39) > div > div > a:nth-child(5) > dbce	dbce-class-content
+4775124561537727377	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(39) > div > div > p:nth-child(9) > dbce	dbce-class-content
+9039871053749274369	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(39) > div > div:nth-child(3) > div > dbce	dbce-class-content
+7537409252890216003	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(41) > div > a > dbce	dbce-class-bp
+1856222597590031478	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(41) > div:nth-child(3) > a > dbce	dbce-class-bp
+5260724634469029108	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(41) > div:nth-child(9) > dbce	dbce-class-bp
+-5637493869126549982	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(45) > div > div > a > dbce	dbce-class-bp
+6347402811163502226	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(45) > div > div > a:nth-child(5) > dbce	dbce-class-content
+1151406373391903285	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(45) > div > div > p:nth-child(9) > dbce	dbce-class-content
+-2793462234835880025	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(45) > div > div:nth-child(3) > div > dbce	dbce-class-content
+7198206507972724381	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(45) > div > div:nth-child(3) > div > dbce:nth-child(5)	dbce-class-content
+277162857675532637	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(47) > div > a > dbce	dbce-class-bp
+-7376263243281242735	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(47) > div:nth-child(3) > a > dbce	dbce-class-bp
+5636285690590866040	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(47) > div:nth-child(9) > dbce	dbce-class-bp
+7512504320135209428	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(5) > div > div:nth-child(3) > a > dbce	dbce-class-bp
+-6568126327931032284	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(5) > div > div:nth-child(3) > a:nth-child(5) > dbce	dbce-class-content
+-3140217714686783280	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(5) > div > div:nth-child(3) > p:nth-child(9) > dbce	dbce-class-content
+887270678358145400	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(5) > div > div:nth-child(5) > div:nth-child(3) > dbce	dbce-class-content
+816138763035374503	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(5) > div > div:nth-child(5) > div:nth-child(3) > dbce:nth-child(5)	dbce-class-content
+900624230158295240	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(5) > div > div:nth-child(5) > div:nth-child(3) > dbce:nth-child(9)	dbce-class-content
+-1476441751014202435	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(5) > div > div:nth-child(5) > p > strong > dbce	dbce-class-content
+-5245314126447126744	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(51) > div > div > a > dbce	dbce-class-bp
+-5803031570388306251	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(51) > div > div > a:nth-child(5) > dbce	dbce-class-content
+-4806353354113408839	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(51) > div > div > p:nth-child(9) > dbce	dbce-class-content
+7642783859103550440	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(51) > div > div:nth-child(3) > div > dbce	dbce-class-content
+7402892535915156962	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(51) > div > div:nth-child(3) > div > dbce:nth-child(13)	dbce-class-content
+-7132783811682059856	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(51) > div > div:nth-child(3) > div > dbce:nth-child(7)	dbce-class-content
+-5325712502109242466	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(53) > div > a > dbce	dbce-class-bp
+4651169189526735855	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(53) > div:nth-child(3) > a > dbce	dbce-class-bp
+6245519910431800743	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(53) > div:nth-child(9) > dbce	dbce-class-bp
+3889687831754686519	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(57) > div > div > a > dbce	dbce-class-bp
+-951185517520145280	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(57) > div > div > a:nth-child(5) > dbce	dbce-class-content
+8981296774663463513	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(57) > div > div > p:nth-child(11) > dbce	dbce-class-content
+-6374904259401358905	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(57) > div > div:nth-child(3) > div > dbce	dbce-class-content
+416907418215958699	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(57) > div > div:nth-child(3) > div > dbce:nth-child(11)	dbce-class-content
+5620014050546849111	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(57) > div > div:nth-child(3) > div > dbce:nth-child(17)	dbce-class-content
+5518733684233432365	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(57) > div > div:nth-child(3) > div > dbce:nth-child(21)	dbce-class-content
+-7540477370046243360	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(57) > div > div:nth-child(3) > div > dbce:nth-child(7)	dbce-class-content
+-9204028234425221698	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(59) > div > a > dbce	dbce-class-bp
+-7522340685270336181	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(59) > div:nth-child(3) > a > dbce	dbce-class-bp
+-3298158794355642995	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(59) > div:nth-child(9) > dbce	dbce-class-bp
+-3989910313518352372	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(63) > div > div > a > dbce	dbce-class-bp
+5180206979945507428	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(63) > div > div > a:nth-child(5) > dbce	dbce-class-content
+-7489975203271430215	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(63) > div > div > p:nth-child(9) > dbce	dbce-class-content
+4406046895007551805	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(63) > div > div:nth-child(3) > div > dbce	dbce-class-content
+3986061735638229972	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(65) > div > a > dbce	dbce-class-bp
+4736964033678785578	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(65) > div:nth-child(3) > a > dbce	dbce-class-bp
+1588463582350021497	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(65) > div:nth-child(9) > dbce	dbce-class-bp
+-297004267039991296	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(7) > div > a > dbce	dbce-class-bp
+-6111959158377360186	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(7) > div:nth-child(3) > a > dbce	dbce-class-bp
+-994686576396181240	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(11) > div:nth-child(7) > div:nth-child(9) > dbce	dbce-class-bp
+-700750884374618316	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(15) > div > p > strong > dbce	dbce-class-bp
+-6560122384479592839	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(15) > div > p:nth-child(3) > a:nth-child(3) > strong > dbce	dbce-class-bp
+4269670350487826897	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(15) > div > p:nth-child(3) > a:nth-child(7) > dbce	dbce-class-bp
+459197891293587535	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(15) > div > p:nth-child(3) > dbce	dbce-class-bp
+1305739405045390180	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(15) > div > p:nth-child(3) > dbce:nth-child(5)	dbce-class-bp
+-3056803517902826289	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(17) > div > div > div > a > dbce	dbce-class-bp
+309709307751896367	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(17) > div > div > div > p:nth-child(3) > strong > dbce	dbce-class-bp
+2815503148041669057	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(17) > div > div > div > p:nth-child(5) > a:nth-child(3) > strong > dbce	dbce-class-bp
+84972376905272290	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(17) > div > div > div > p:nth-child(5) > a:nth-child(7) > dbce	dbce-class-bp
+7839558966824711198	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(17) > div > div > div > p:nth-child(5) > dbce	dbce-class-bp
+2433588864720092097	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(17) > div > div > div > p:nth-child(5) > dbce:nth-child(5)	dbce-class-bp
+-1614529775744772720	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(17) > div > div > div > p:nth-child(5) > dbce:nth-child(9)	dbce-class-bp
+-5097581052431635222	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(3) > div > h2 > dbce	dbce-class-bp
+5709934006331056414	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(5) > div > dbce	dbce-class-bp
+1269202192223353926	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(5) > div > div:nth-child(3) > a > dbce	dbce-class-bp
+3405520360239545041	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div > dbce	dbce-class-bp
+391222937298376720	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > a > dbce	dbce-class-bp
+6831887605622728497	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(5) > div > span:nth-child(5) > dbce	dbce-class-bp
+1529754944626668834	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(5) > form:nth-child(3) > button > dbce:nth-child(3)	dbce-class-bp
+-5899374460040668034	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(5) > form:nth-child(3) > button > div > dbce	dbce-class-bp
+4844057594686768775	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(13) > div > dbce	dbce-class-content
+-7090391975688486748	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(13) > div:nth-child(3) > dbce	dbce-class-content
+3972137057309169010	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(17) > div > div > a > dbce	dbce-class-content
+4188319256591368937	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(17) > div:nth-child(3) > p:nth-child(5) > dbce	dbce-class-content
+9031238904525353670	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(19) > div > dbce	dbce-class-content
+2580006063852060827	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(19) > div:nth-child(3) > dbce	dbce-class-content
+-901231265770578697	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(25) > div > a > dbce	dbce-class-content
+-885817861850147796	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(25) > div:nth-child(3) > a > dbce	dbce-class-content
+-5872783637253525754	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(27) > div > dbce	dbce-class-content
+-2919619434458102303	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(27) > div:nth-child(3) > dbce	dbce-class-content
+7039442044227050276	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(31) > div > a > dbce	dbce-class-content
+4139151154532398641	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(31) > div:nth-child(3) > a > dbce	dbce-class-content
+5237507310243804111	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(35) > div > dbce	dbce-class-content
+-500530849694883339	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(35) > div:nth-child(3) > dbce	dbce-class-content
+-4245537381196073243	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(37) > div > div > a > dbce	dbce-class-content
+1182184328900789587	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(37) > div:nth-child(3) > p:nth-child(3) > dbce	dbce-class-content
+9223114348857140061	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(43) > div > dbce	dbce-class-content
+1484478103471676153	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(43) > div:nth-child(3) > dbce	dbce-class-content
+-7341503826316286239	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(45) > div > a > dbce	dbce-class-content
+7721144538959576866	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(45) > div:nth-child(3) > a > dbce	dbce-class-content
+3009465859933857999	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(49) > div > a > dbce	dbce-class-content
+6074432336617310982	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(5) > div > a > dbce	dbce-class-content
+7907927134480206604	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(53) > div > a > dbce	dbce-class-content
+6496448206413801552	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(7) > div > dbce	dbce-class-content
+-6189606278514620218	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > div:nth-child(7) > div:nth-child(3) > dbce	dbce-class-content
+-4515090718054903313	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > h1 > dbce	dbce-class-content
+-6470688456008507178	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > p:nth-child(15) > dbce	dbce-class-content
+7471684639380006675	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > p:nth-child(21) > dbce	dbce-class-content
+7156397733032791619	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > p:nth-child(23) > dbce	dbce-class-content
+513570496651287241	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > p:nth-child(29) > dbce	dbce-class-content
+-1041021192179551428	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > p:nth-child(3) > a:nth-child(3) > strong > dbce	dbce-class-content
+5877851681642932920	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > p:nth-child(3) > dbce	dbce-class-content
+5339717725268858205	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > p:nth-child(3) > dbce:nth-child(5)	dbce-class-content
+6318775347519865214	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > p:nth-child(33) > dbce	dbce-class-content
+-4694481681498472493	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > p:nth-child(41) > dbce	dbce-class-content
+-3675474428229586533	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > p:nth-child(47) > dbce	dbce-class-content
+-8020957780358567513	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > p:nth-child(51) > dbce	dbce-class-content
+6435774103919892235	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > p:nth-child(9) > dbce	dbce-class-content
+-2919240445485528786	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > ul:nth-child(11) > li > dbce:nth-child(3)	dbce-class-content
+-8984349615155961570	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > ul:nth-child(11) > li > strong > dbce	dbce-class-content
+-5965957429808062553	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > ul:nth-child(11) > li:nth-child(3) > dbce:nth-child(3)	dbce-class-content
+4908395640423153868	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > ul:nth-child(11) > li:nth-child(3) > strong > dbce	dbce-class-content
+3641922578439088840	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > ul:nth-child(11) > li:nth-child(5) > dbce:nth-child(3)	dbce-class-content
+-7062796702113022949	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > ul:nth-child(11) > li:nth-child(5) > strong > dbce	dbce-class-content
+8527223830501574626	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(19) > div:nth-child(7) > div > div > ul:nth-child(11) > li:nth-child(5) > strong:nth-child(5) > dbce	dbce-class-content
+-8224946465423090687	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > div > dbce	dbce-class-bp
+-1509739333102524819	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li > div > a > dbce	dbce-class-bp
+-4860004382095019676	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li > div:nth-child(3) > h3 > a > dbce	dbce-class-bp
+-7987454616648952922	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div > a > dbce	dbce-class-bp
+-4581703709281635069	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > h3 > a > dbce	dbce-class-bp
+4802490768400125458	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > div > a > dbce	dbce-class-bp
+-8713490335636879889	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > div:nth-child(3) > h3 > a > dbce	dbce-class-bp
+-5398658106168311927	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > div > a > dbce	dbce-class-bp
+3522887415336694214	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(7) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > div:nth-child(3) > h3 > a > dbce	dbce-class-bp
+-4052890263569990433	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(11) > div > dbce	dbce-class-bp
+-3793147344790396391	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(11) > div:nth-child(3) > ul > li > a > dbce	dbce-class-bp
+7046896076399878745	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(11) > div:nth-child(3) > ul > li:nth-child(11) > a > dbce	dbce-class-bp
+106296848880013146	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(11) > div:nth-child(3) > ul > li:nth-child(13) > a > dbce	dbce-class-bp
+7052143351808525871	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(11) > div:nth-child(3) > ul > li:nth-child(3) > a > dbce	dbce-class-bp
+-2845945102195425192	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(11) > div:nth-child(3) > ul > li:nth-child(5) > a > dbce	dbce-class-bp
+-2570170562943252718	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(11) > div:nth-child(3) > ul > li:nth-child(7) > a > dbce	dbce-class-bp
+-794113106837740252	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(11) > div:nth-child(3) > ul > li:nth-child(9) > a > dbce	dbce-class-bp
+-134816191680537936	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(13) > div > dbce	dbce-class-bp
+1075791860392507080	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(13) > div:nth-child(3) > p > dbce	dbce-class-bp
+4111520236705956215	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(13) > div:nth-child(3) > ul:nth-child(3) > li > a > dbce	dbce-class-bp
+-4635912018736201423	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(13) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(11) > a > dbce	dbce-class-bp
+1572906025727710113	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(13) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(13) > a > dbce	dbce-class-bp
+-6826292760926450215	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(13) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(15) > a > dbce	dbce-class-bp
+-5743234648579506796	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(13) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(17) > a > dbce	dbce-class-bp
+8584598493354281922	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(13) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(19) > a > dbce	dbce-class-bp
+-3140766448002870018	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(13) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > a > dbce	dbce-class-bp
+-8122478668209981187	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(13) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > a > dbce	dbce-class-bp
+3969154981912207510	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(13) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > a > dbce	dbce-class-bp
+305009053725119080	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(13) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(9) > a > dbce	dbce-class-bp
+4193793543725529413	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(15) > a:nth-child(3) > dbce	dbce-class-bp
+6552607845882035693	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(15) > dbce	dbce-class-bp
+3951171800982246638	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(17) > div > div:nth-child(3) > table > tr > td > a > dbce	dbce-class-bp
+6509962538340797096	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(17) > div > div:nth-child(3) > table > tr > td:nth-child(3) > a > dbce	dbce-class-bp
+6521590255830030216	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(17) > div > div:nth-child(3) > table > tr:nth-child(3) > td > a > dbce	dbce-class-bp
+8503974145828417157	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(17) > div > div:nth-child(3) > table > tr:nth-child(3) > td:nth-child(3) > a > dbce	dbce-class-bp
+2210056725581915183	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(17) > div > div:nth-child(3) > table > tr:nth-child(5) > td > a > dbce	dbce-class-bp
+-8456271083903284794	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(17) > div > div:nth-child(3) > table > tr:nth-child(5) > td:nth-child(3) > a > dbce	dbce-class-bp
+7502846643364591901	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(17) > div > div:nth-child(3) > table > tr:nth-child(7) > td:nth-child(3) > a > dbce	dbce-class-bp
+7053347172930163419	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(17) > div > div:nth-child(3) > table > tr:nth-child(9) > td > a > dbce	dbce-class-bp
+-6860127188552144273	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(17) > div > h3 > dbce	dbce-class-bp
+-5555450010631212642	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > div > dbce	dbce-class-bp
+6777596615203636423	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li > div > a > dbce	dbce-class-bp
+-5406762217457228374	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li > div:nth-child(3) > a > dbce	dbce-class-bp
+-427443877553167107	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li > div:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-6109089190106116597	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div > a > dbce	dbce-class-bp
+-6136075105222522556	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > a > dbce	dbce-class-bp
+-2359943776467228242	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > a > dbce:nth-child(3)	dbce-class-bp
+-1061314985177204544	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > a > dbce:nth-child(5)	dbce-class-bp
+-7467478435527573862	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+-7403707402592902730	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > div > a > dbce	dbce-class-bp
+-708044917811598627	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > div:nth-child(3) > a > dbce	dbce-class-bp
+3160650761804477421	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(5) > div:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+4936216262219732085	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > div > a > dbce	dbce-class-bp
+3079715992330069638	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > div:nth-child(3) > a > dbce	dbce-class-bp
+-6167356974676790017	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(3) > ul:nth-child(3) > li:nth-child(7) > div:nth-child(3) > div:nth-child(3) > dbce	dbce-class-bp
+6962637160289740554	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(7) > div > dbce	dbce-class-bp
+3912770230792239067	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(7) > div:nth-child(3) > ul > li > a > dbce	dbce-class-bp
+-9121527415770283312	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(7) > div:nth-child(3) > ul > li:nth-child(11) > a > dbce	dbce-class-bp
+6090611058486820736	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(7) > div:nth-child(3) > ul > li:nth-child(13) > a > dbce	dbce-class-bp
+-8408420388950620575	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(7) > div:nth-child(3) > ul > li:nth-child(3) > a > dbce	dbce-class-bp
+-1931995796837735861	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(7) > div:nth-child(3) > ul > li:nth-child(5) > a > dbce	dbce-class-bp
+-4334907348564490612	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(7) > div:nth-child(3) > ul > li:nth-child(7) > a > dbce	dbce-class-bp
+5523047386429047587	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(7) > div:nth-child(3) > ul > li:nth-child(9) > a > dbce	dbce-class-bp
+525129708506527760	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(9) > div > dbce	dbce-class-bp
+-7773380185752765458	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(9) > div:nth-child(3) > ul > li > a > dbce	dbce-class-bp
+-8403159487248572182	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(9) > div:nth-child(3) > ul > li:nth-child(11) > a > dbce	dbce-class-bp
+5406534655024748502	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(9) > div:nth-child(3) > ul > li:nth-child(13) > a > dbce	dbce-class-bp
+-4258602793384544777	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(9) > div:nth-child(3) > ul > li:nth-child(15) > a > dbce	dbce-class-bp
+-3790846632969634739	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(9) > div:nth-child(3) > ul > li:nth-child(17) > a > dbce	dbce-class-bp
+9117844518388950617	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(9) > div:nth-child(3) > ul > li:nth-child(19) > a > dbce	dbce-class-bp
+-1769651082665113272	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(9) > div:nth-child(3) > ul > li:nth-child(3) > a > dbce	dbce-class-bp
+915105466267165805	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(9) > div:nth-child(3) > ul > li:nth-child(5) > a > dbce	dbce-class-bp
+-249963491430863382	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(9) > div:nth-child(3) > ul > li:nth-child(7) > a > dbce	dbce-class-bp
+5435788530996182773	div:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(3) > div:nth-child(9) > div:nth-child(9) > div:nth-child(3) > ul > li:nth-child(9) > a > dbce	dbce-class-bp

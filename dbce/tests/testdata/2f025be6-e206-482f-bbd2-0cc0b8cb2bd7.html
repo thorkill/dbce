@@ -1,0 +1,443 @@
+<html>
+ <body>
+      <div id="artikel">
+       <article>
+        <h1>
+         <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+          Analysiert: Ransomware meets Info-Stealer - RAA und das diebische
+         </dbce>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Pony
+         </dbce>
+        </h1>
+        <figure class="aufmacherbild">
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          <img src="http://1.f.ix.de/scale/geometry/600/q75/security/imgs/07/1/8/7/6/7/7/7/Auge-0852aae5e11b990a-e4718f2b6aa57e4e.jpeg"/>
+         </dbce>
+        </figure>
+        <p class="vorlauf">
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Im Rahmen unserer Analysiert:-Serie geht es diesmal einem Erpressungs-Trojaner an den Code: Olivia von Westernhagen untersucht den in JavaScript realisierten RAA-Trojaner, der gleich auch noch eine Passwort-Klau-Malware im Gepäck hat.
+         </dbce>
+        </p>
+        <h3>
+         <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+          Olivia von Westernhagen
+         </dbce>
+         <span class="datum">
+          <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+           -
+          </dbce>
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           30.08.2016
+          </dbce>
+         </span>
+        </h3>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Ende Juni berichtete heise Security über eine neue
+         </dbce>
+         <a href="/meldung/Erpressungs-Trojaner-RAA-kommt-mit-Passwort-Dieb-im-Huckepack-daher-3242139.html">
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           Ransomware namens RAA
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          , die sich auf besondere Weise von anderen Vertretern dieser Spezies unterschied. Demnach handelte es sich bei RAAs Programmcode um JavaScript, welches vornehmlich als gefälschter Rechnungsanhang verschickt wurde. Nach dem Doppelklick auf die Datei mit der Endung .js verschlüsselte das Skript nicht nur Dateien, sondern infizierte das betroffene System zusätzlich auch noch mit dem Passwort-Klau-Programm Pony.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Die Behauptung, es handele sich um "100 Prozent JavaScript", warf bei mir jedoch einige Fragen auf. Wie lässt sich eine JavaScript-Datei unabhängig von einer – meist durch einen Webbrowser bereitgestellten – Engine ausführen? Und woher nimmt das Skript die erforderlichen Rechte zum Starten einer .exe-Datei auf dem lokalen Rechner?
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Um diesen Fragen auf den Grund zu gehen und weitere Details herauszufinden, habe ich mir eine RAA- nebst zugehöriger Pony-Variante näher angesehen. Zwar ist der während des Verschlüsselungsvorgangs kontaktierte Server mittlerweile offline; dennoch konnte ich mir einen guten Überblick über Besonderheiten der Ransomware verschaffen, die in dieser oder ähnlicher Form auch in künftiger Malware implementiert werden könnten. (Links zu den Dateien finden sich etwa bei Virustotal:
+         </dbce>
+         <a href="https://virustotal.com/de/file/ddda0e8dae02ccff662bdbcf87d5b4fdde0f9cb2f27ba922cf5b1d63f6f733c3/analysis/1468500474/" rel="external" target="_blank">
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           RAA
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          und
+         </dbce>
+         <a href="https://virustotal.com/de/file/3e7950ebc821d0a055c8048baf10a61a667a3f38a94cf65f6b7482650f57087d/analysis/1468499965/" rel="external" target="_blank">
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           Pony
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          )
+         </dbce>
+        </p>
+        <h3 class="subheading">
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Kein reines JavaScript
+         </dbce>
+        </h3>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Während der Analyse wird schnell klar,
+         </dbce>
+         <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+          dass es sich
+         </dbce>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          bei der Ransomware streng genommen nicht um reines JavaScript, sondern um JScript handelt. Die Microsoft-eigene Variante des
+         </dbce>
+         <a href="https://en.wikipedia.org/wiki/ECMAScript" rel="external" target="_blank">
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           ECMAScript
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          -Standards, auf dem auch JavaScript basiert, unterscheidet sich von diesem in erster Linie dadurch, dass JScript für
+         </dbce>
+         <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+          den Windows Script Host
+         </dbce>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          (WSH) geschrieben und durch dessen JScript-Engine ausgeführt wird. Da WSH vor allem zur Systemadministration und zur Automatisierung wiederkehrender Arbeitsprozesse entwickelt wurde, ermöglicht es Skripten die Nutzung von Methoden, mit denen sich das System nicht nur überwachen und analysieren, sondern auch umfangreich manipulieren lässt.
+         </dbce>
+         <span class="bild_links" style="width:250px;">
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           <img alt="Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony" data-zoom-src="/security/imgs/07/1/8/7/6/7/7/7/js-nv-437abea7811a3ea1.png" height="126" src="http://1.f.ix.de/security/imgs/07/1/8/7/6/7/7/7/js-nv-666986a8b83e1476.png" width="250"/>
+          </dbce>
+          <br/>
+          <span class="bildunterschrift">
+           <dbce class="cur-Gah5aipa prev-AhCho7aa">
+            Nach einem Beautifier-Durchlauf, ist der Programmcode schon viel besser lesbar.
+           </dbce>
+           <a class="linkurl_grossbild" href="/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-3303113.html?view=zoom;zoom=7">
+            <dbce class="cur-Gah5aipa prev-AhCho7aa">
+             <img alt="Vergrößern" height="16" src="http://1.f.ix.de/icons/lupe.png" title="Vergrößern" width="16"/>
+            </dbce>
+           </a>
+          </span>
+         </span>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Selbstverständlich kann auch so manches "reine" JavaScript auf diese Weise ohne Webbrowser als Standalone-Skript per Kommandozeile oder Doppelklick lokal ausgeführt werden. Für Schadcode essentielle Funktionen wie das Auslesen und Bearbeiten von Registry-Einträgen, die Simulation von Tastatur-Eingaben in laufende Anwendungen, das Starten neuer Prozesse oder auch die Verwendung von ActiveX-Steuerelementen werden jedoch erst mittels Methoden aus
+         </dbce>
+         <a href="https://msdn.microsoft.com/en-us/library/at5ydy31(v=vs.84).aspx" rel="external" target="_blank">
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           dem WSH-eigenen WScript-Object
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          sowie aus COM-Objekten zugänglich.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Zunächst werfe ich im Texteditor einen ersten Blick auf das gut 723-KByte-große Skript. Der absichtlich unübersichtlich gespeicherte Code wird durch die Verwendung eines Tools wie
+         </dbce>
+         <a href="http://jsbeautifier.org/" rel="external" target="_blank">
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           JSBeautifier
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          sofort besser lesbar. Aus mehreren Artikeln weiß ich bereits, dass RAA zum Verschlüsseln der Dateien die frei verfügbare
+         </dbce>
+         <a href="https://github.com/sytelus/CryptoJS" rel="external" target="_blank">
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           CryptoJS-Bibliothek
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          verwendet – genauer: deren Implementierung der Blockchiffre AES. Dementsprechend besteht der erste Teil des Skripts aus einer Kopie des CryptoJS-AES-Codes.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Den eigentlichen, mittels zufälliger Variablen- und Funktionsnamen und teils auch Verschlüsselung stark obfuskierten Schadcode finde ich am Ende des Scripts. Er gliedert sich zum einen in die Verschlüsselungs- und Erpressungs-Funktionen und zum anderen in einen Bereich, der für das Extrahieren und Starten des Pony-Trojaners zuständig ist. Im Folgenden werfe ich zunächst einen näheren Blick auf die Funktionsweise von RAA, bevor ich mich Pony zuwende. Interessant wird auch sein herauszufinden, ob eine
+         </dbce>
+         <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+          Interaktion zwischen den beiden Schädlingen
+         </dbce>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          stattfindet, die über das Starten des Pony-Prozesses hinausgeht.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Die grundsätzliche
+         </dbce>
+         <a href="/meldung/Erpressungs-Trojaner-RAA-kommt-mit-Passwort-Dieb-im-Huckepack-daher-3242139.html">
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           Vorgehensweise der Ransomware RAA
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          wurde bei heise Security bereits beschrieben: Das JScript stellt nach seiner Ausführung unter Verwendung des Wordpad zunächst ein scheinbar defektes Textdokument dar, um den Nutzer in Sicherheit zu wiegen. In Wirklichkeit jedoch verschlüsselt es mittels der bereits erwähnten CryptoJS-Bibliothek im Hintergrund Dateien und versieht sie dann mit der Endung .locked. Anschließend fordert RAA mittels eines zweiten Dokuments eine Lösegeldzahlung in Bitcoins. Diese zweite, manuell zu öffnende Textdokument ist übrigens mit einer .rtf-Endung versehen – vermutlich um die Kompatibilität nicht nur mit Office, sondern auch mit alternativ genutzten Textverarbeitungsprogrammen zu gewährleisten.
+         </dbce>
+         <span class="bild_rechts" style="width:208px;">
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           <img alt="Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony" data-zoom-src="/security/imgs/07/1/8/7/6/7/7/7/image1-48eec744755c6275.jpeg" height="200" src="http://1.f.ix.de/security/imgs/07/1/8/7/6/7/7/7/image1-1be9f9b3ee23a583.jpeg" width="208"/>
+          </dbce>
+          <br/>
+          <span class="bildunterschrift">
+           <dbce class="cur-Gah5aipa prev-AhCho7aa">
+            Vorgeblich beschädigtes, zuerst angezeigtes Dokument.
+           </dbce>
+           <a class="linkurl_grossbild" href="/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-3303113.html?view=zoom;zoom=1">
+            <dbce class="cur-Gah5aipa prev-AhCho7aa">
+             <img alt="Vergrößern" height="16" src="http://1.f.ix.de/icons/lupe.png" title="Vergrößern" width="16"/>
+            </dbce>
+           </a>
+          </span>
+         </span>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Statt nur die bekannten Einzelheiten zu wiederholen, möchte ich einige interessante Details hinzufügen, die bisher noch nicht erwähnt oder nicht näher erklärt wurden. Dabei stehen die Besonderheiten des Verschlüsselungsvorgangs im Vordergrund. Darüber hinaus soll noch einmal deutlich gemacht werden, welche Möglichkeiten des WSH die Ransomware nutzt, die sie als reines JavaScript nicht hätte.
+         </dbce>
+        </p>
+        <h3 class="subheading">
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Die Verschlüsselung von RAA
+         </dbce>
+        </h3>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Obwohl RAA zur Zahlung der geforderten Bitcoins und zur Kontaktaufnahme mit dem Erpresser im Textdokument eine Bitcoin- und eine E-Mail-Adresse bereitstellt, wird auf die Kommunikation mit einem entfernten Server während des Verschlüsselungsprozesses keineswegs verzichtet. Hierfür gibt es zwei Gründe: Zum einen ist der Key, der dem Nutzer im Anschluss an die Zahlung mitsamt eines Entschlüsselungs-Tools zugesendet werden soll, rechnerspezifisch. Zum anderen wird die im Dokument angezeigte Bitcoin-Adresse bei jeder Ausführung neu vom Server abgerufen. Dies gibt dem Erpresser die Möglichkeit, die Adresse zu ändern, falls sie gesperrt wird, ohne dass ihm die Besitzer bereits infizierte Rechner als zahlende Kunden verloren gehen.
+         </dbce>
+         <span class="bild_rechts" style="width:191px;">
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           <img alt="Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony" data-zoom-src="/security/imgs/07/1/8/7/6/7/7/7/image2-ca18fa5dd0d01907.jpeg" height="200" src="http://1.f.ix.de/security/imgs/07/1/8/7/6/7/7/7/image2-40ef8bd19014438f.jpeg" width="191"/>
+          </dbce>
+          <br/>
+          <span class="bildunterschrift">
+           <dbce class="cur-Gah5aipa prev-AhCho7aa">
+            Erpresser-Botschaft mit Platzhaltern für ID und Bitcoin-Adresse.
+           </dbce>
+           <a class="linkurl_grossbild" href="/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-3303113.html?view=zoom;zoom=2">
+            <dbce class="cur-Gah5aipa prev-AhCho7aa">
+             <img alt="Vergrößern" height="16" src="http://1.f.ix.de/icons/lupe.png" title="Vergrößern" width="16"/>
+            </dbce>
+           </a>
+          </span>
+         </span>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Die Vorbereitung des Verschlüsselungsvorgangs beginnt folgendermaßen: Unter Verwendung des WScript-Objects erzeugt RAA ein neues ActiveX-Objekt vom Typ
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           Scriptlet.TypeLib
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          . Ein solches Objekt verfügt zur eindeutigen Identifizierung stets über eine so genannten GUID aus Hexadezimalwerten im Format
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          . Die letzten 18 Stellen dieser eindeutigen GUID mit angehängtem Zusatz "
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           - RAA
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          " dienen der Ransomware als ID.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Die Ransomware sendet nun einen GET-Request an eine im Skript fest definierte URL und übergibt besagte ID als Parameter. Der Server sendet einen mehr 2000 Zeichen langen String zurück, der auf dem lokalen Rechner per
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           split()
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          -Funktion in zwei Teile aufgeteilt wird. Während es sich bei einer Hälfte um die Bitcoin-Adresse für die Lösegeldzahlung handelt, kommt die andere Hälfte beim nachfolgenden Verschlüsselungsvorgang zum Einsatz.
+         </dbce>
+        </p>
+        <h3 class="subheading">
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Die Entschlüsselung enträtselt
+         </dbce>
+        </h3>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Meist ist ja im Zusammenhang mit Verschlüsselungstrojanern von EINEM Key die Rede, der dem Opfer im Falle einer Lösegeldzahlung übermittelt wird. Tatsächlich wird im vorliegenden Fall jedoch auf Basis des vom Server übermittelten Strings PRO DATEI sowohl ein neuer Key als auch ein neuer sogenannter Initialization Vector (IV) generiert. Letzterer dient gewissermaßen dazu, die "Zufälligkeit" des Verschlüsselungsresultats – und damit die Sicherheit der Verschlüsselung – zu erhöhen.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Das Generieren von Keys und IVs erfolgt mittels des JScripts direkt auf dem infizierten Rechner. Sie werden innerhalb einer Funktion erzeugt, der der vom Server übermittelte lange String als Parameter übergeben wird. Der Aufruf der Funktion erfolgt pro Datei. Sowohl der Key als auch der IV umfassen je 32 Zeichen (32 Byte ergeben die verwendeten 256 Bit), die jeweils von einer zufällig ausgewählten Position des Strings stammen.
+         </dbce>
+         <span class="bild_rechts" style="width:250px;">
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           <img alt="Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony" data-zoom-src="/security/imgs/07/1/8/7/6/7/7/7/image3-6943372d6d352ab0.jpeg" height="170" src="http://1.f.ix.de/security/imgs/07/1/8/7/6/7/7/7/image3-93fbede02c1b521f.jpeg" width="250"/>
+          </dbce>
+          <br/>
+          <span class="bildunterschrift">
+           <dbce class="cur-Gah5aipa prev-AhCho7aa">
+            Erzeugen von Key und Initialisierungsvektor samt zugehöriger Offsets.
+           </dbce>
+           <a class="linkurl_grossbild" href="/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-3303113.html?view=zoom;zoom=3">
+            <dbce class="cur-Gah5aipa prev-AhCho7aa">
+             <img alt="Vergrößern" height="16" src="http://1.f.ix.de/icons/lupe.png" title="Vergrößern" width="16"/>
+            </dbce>
+           </a>
+          </span>
+         </span>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Die anschließende Verschlüsselung erfolgt durch einen Aufruf von
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           CryptoJS.AES.encrypt()
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          . Als Parameter werden die zu verschlüsselnde Datei, der Key sowie der IV übergeben. Bei AES handelt es sich um eine symmetrische Blockchiffre, die ein und denselben Key und IV sowohl für die Ver- als auch für die Entschlüsselung nutzt. Da RAA diese Werte jedoch für sämtliche Dateien lokal generiert, liegt die Frage nahe, wie die Entschlüsselung durch den Erpresser überhaupt möglich ist.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Dabei sind zwei Details entscheidend. Zum einen wird der als Verschlüsselungs-Basis dienende lange String dauerhaft auf dem C&amp;C-Server gespeichert und kann mit Hilfe der übermittelten GUID eindeutig einem bestimmten PC zugeordnet werden. Zum anderen speichert RAA am Ende jeder verschlüsselten Datei die Offsets, an deren Position im String die einzelnen Bytes von Schlüssel und IV zu finden sind.
+         </dbce>
+        </p>
+        <p>
+         <span class="bild_zentriert" style="width:400px;">
+          <dbce class="cur-Gah5aipa prev-AhCho7aa">
+           <img alt="Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony" data-zoom-src="/security/imgs/07/1/8/7/6/7/7/7/image4-380aaf0cda030d2e.jpeg" height="108" src="http://1.f.ix.de/security/imgs/07/1/8/7/6/7/7/7/image4-6ff0ab669dff3bb2.jpeg" width="400"/>
+          </dbce>
+          <br/>
+          <span class="bildunterschrift">
+           <dbce class="cur-Gah5aipa prev-AhCho7aa">
+            Hinter den verschlüsselten Daten der Datei schreibt RAA mit "ids" die Computer-ID und die Offsets für Key und IV in die Datei, bevor er diese abschließend mit der Endung .locked versieht.
+           </dbce>
+           <a class="linkurl_grossbild" href="/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-3303113.html?view=zoom;zoom=4">
+            <dbce class="cur-Gah5aipa prev-AhCho7aa">
+             <img alt="Vergrößern" height="16" src="http://1.f.ix.de/icons/lupe.png" title="Vergrößern" width="16"/>
+            </dbce>
+           </a>
+          </span>
+         </span>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Mit Hilfe dieser Offsets kann das Entschlüsselungs-Tool also aus dem vom Erpresser gelieferten 2000-Zeichen-String den benötigten IV und AES-Key für eine Datei ermitteln und diese dann wieder dechiffrieren. Ohne den String ist dieses Vorhaben hingegen aussichtslos. Die Zeichenfolge wird auf dem Command&amp;Control-Server erzeugt und es ist nicht bekannt wie. Es ist jedoch anzunehmen, dass der Server zu jeder GUID einen zufälligen String auswürfelt. Auf dem Client liegt der Schlüssel-String nur während der Verschlüsselung und da auch nur im Arbeitsspeicher vor. Danach ist eine Entschlüsselung auf eigene Faust zum Scheitern verurteilt.
+         </dbce>
+        </p>
+        <h3 class="subheading">
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Ein Hoffnungsschimmer
+         </dbce>
+        </h3>
+        <p>
+         <dbce class="cur-Gah5aipa prev-AhCho7aa">
+          Dass man und wie man trotzdem einige Daten noch retten kann, verrät die nächste Analysiert-Folge, in der ich auch die WSH-Nutzung und vor allem das diebische Pony genauer untersuchen werde.
+         </dbce>
+         <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+          (
+         </dbce>
+         <a href="mailto:ju@ct.de">
+          <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+           ju
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+          )
+         </dbce>
+         <br/>
+        </p>
+        <p>
+        </p>
+        <div class="heisebox">
+         <h4>
+          <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+           Analysiert - die Serie auf heise Security
+          </dbce>
+          <br/>
+         </h4>
+         <p>
+          <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+           Im Rahmen der losen
+          </dbce>
+          <a href="/thema/Analysiert">
+           <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+            heise-Security-Serie "Analysiert:"
+           </dbce>
+          </a>
+          <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+           werfen Experten einen Blick hinter die Kulissen von aktuellen Schädlingen, Betrugsmaschen oder anderen Tricks, die Sie um Ihre Daten bringen sollen.
+          </dbce>
+         </p>
+        </div>
+        <p>
+        </p>
+        <p>
+        </p>
+        <div class="article-footer artikel">
+         <div class="link_forum_beitrag">
+          <p>
+           <a href="https://www.heise.de/forum/heise-Security/Kommentare/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony/forum-362440/comment/">
+            <b>
+             <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+              Kommentare lesen
+             </dbce>
+             <dbce class="cur-Gah5aipa prev-AhCho7aa">
+              (6
+             </dbce>
+             <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+              Beiträge)
+             </dbce>
+            </b>
+           </a>
+          </p>
+         </div>
+         <p class="themen_foren">
+          <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+           Forum zum Thema:
+          </dbce>
+          <a href="/forum/heise-Security/Themen-Hilfe/Hilfe-bei-Erpressungs-Trojanern/forum-256381/comment/">
+           <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+            Hilfe bei Erpressungs-Trojanern
+           </dbce>
+          </a>
+         </p>
+         <div class="shariff clear" data-backend-url="/shariff-backend/" data-services='["facebook","twitter","googleplus","mail","info"]'>
+         </div>
+         <p class="permalink">
+          <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+           Permalink:
+          </dbce>
+          <a href="http://heise.de/-3303113">
+           <dbce class="cur-Gah5aipa prev-AhCho7aa">
+            http://heise.de/-3303113
+           </dbce>
+          </a>
+         </p>
+         <p class="printversion">
+          <a href="/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-3303113.html?view=print" rel="nofollow">
+           <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa">
+            Version zum
+           </dbce>
+           <dbce class="cur-Gah5aipa down-aeMaix1i prev-AhCho7aa up-Zaachae8">
+            Drucken
+           </dbce>
+          </a>
+         </p>
+        </div>
+       </article>
+      </div>
+    </body>
+  </html>

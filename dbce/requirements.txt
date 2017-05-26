@@ -1,0 +1,10 @@
+bitarray
+beautifulsoup4
+datasketch
+lxml
+matplotlib
+pywb
+pandas
+selenium
+scipy
+scikit-learn

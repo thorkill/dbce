@@ -1,0 +1,4 @@
+#!/bin/sh
+
+pylint $ENVSITEPACKAGESDIR/dbce > $TOXINIDIR/stash/pylint.html
+

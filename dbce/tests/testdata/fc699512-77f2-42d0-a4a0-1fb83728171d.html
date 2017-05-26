@@ -1,0 +1,1780 @@
+<html>
+ <head>
+  <title>
+   Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony, Teil II |
+                heise Security
+  </title>
+  <meta charset="utf-8"/>
+  <link href="//1.f.ix.de" rel="dns-prefetch"/>
+  <link href="//m.heise.de" rel="dns-prefetch"/>
+  <link href="//script.ioam.de" rel="dns-prefetch"/>
+  <link href="//ad.yieldlab.net" rel="dns-prefetch"/>
+  <link href="//www.googletagservices.com" rel="dns-prefetch"/>
+  <meta content="Heise Medien" name="publisher"/>
+  <meta content="width=1175" name="viewport"/>
+  <link href="/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-Teil-II-3303401.html" rel="canonical"/>
+  <link href="//m.heise.de/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-Teil-II-3303401.html" id="mobil_variante" media="only screen and (max-width: 640px)" rel="alternate"/>
+  <link href="/security/" rel="home" title="Startseite" type="text/html"/>
+  <link href="/security/impressum.html" rel="copyright" title="Copyright"/>
+  <meta content="2016-09-05T07:48:00" name="date"/>
+  <meta content="Analysiert, JavaScript, Pony, RAA, Ransomware" name="keywords"/>
+  <meta content="Olivia von Westernhagen" name="author"/>
+  <meta content="Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony, Teil II" name="fulltitle"/>
+  <meta content="Hintergrund" name="topic"/>
+  <meta content="true" name="feature"/>
+  <meta content="Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony, Teil II" name="DC.title"/>
+  <meta content="Wie diese Analysiert:-Folge enthüllt, weist die scheinbar perfekte Verschlüsselung des RAA-Trojaners doch Lücken auf. Auch der von RAA gestartete Passwort-Dieb kann sich mit seinen Anti-Debugging-Tricks der Analyse nicht entziehen." name="DC.description"/>
+  <meta content="http://heise.de/-3303401" name="DC.identifier" scheme="DCTERMS.URI"/>
+  <meta content="Wie diese Analysiert:-Folge enthüllt, weist die scheinbar perfekte Verschlüsselung des RAA-Trojaners doch Lücken auf. Auch der von RAA gestartete Passwort-Dieb kann sich mit seinen Anti-Debugging-Tricks der Analyse nicht entziehen." name="description"/>
+  <meta content="summary" name="twitter:card"/>
+  <meta content="@heisec" name="twitter:site"/>
+  <meta content="heise.de" name="twitter:domain"/>
+  <meta content="Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony, Teil II" property="og:title"/>
+  <meta content="website" property="og:type"/>
+  <meta content="de_DE" property="og:locale"/>
+  <meta content="http://www.heise.de/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-Teil-II-3303401.html" property="og:url"/>
+  <meta content="Security" property="og:site_name"/>
+  <meta content="http://www.heise.de/security/imgs/07/1/8/7/6/9/1/7/Auge-0852aae5e11b990a-e4718f2b6aa57e4e.jpeg" property="og:image"/>
+  <meta content="http://www.heise.de/security/imgs/07/1/8/7/6/9/1/7/image5-0e8260c101e61ba3.jpeg" property="og:image"/>
+  <meta content="http://www.heise.de/security/imgs/07/1/8/7/6/9/1/7/image6-36b5e8860b0b339c.jpeg" property="og:image"/>
+  <meta content="Wie diese Analysiert:-Folge enthüllt, weist die scheinbar perfekte Verschlüsselung des RAA-Trojaners doch Lücken auf. Auch der von RAA gestartete Passwort-Dieb kann sich mit seinen Anti-Debugging-Tricks der Analyse nicht entziehen." property="og:description"/>
+  <meta content="InterRed V16.0.3, http://www.interred.de/, InterRed GmbH" name="generator"/>
+  <link href="http://www.heise.de/stil/standard2008.css?58f3eb1cd2688e3959de" rel="stylesheet" type="text/css"/>
+  <link href="http://www.heise.de/stil/heise.css?c4caf848269ae60ec461" rel="stylesheet" type="text/css"/>
+  <link href="/favicon_security.ico" rel="shortcut icon"/>
+  <link href="mailto:red%40heisec.de?subject=heise%20Security" rel="author" title="Kontakt"/>
+  <link href="https://www.heise.de/security/suche/" rel="search" title="Suche"/>
+  <link href="https://www.heise.de/security/news/news-atom.xml" rel="alternate" title="Security News" type="application/atom+xml"/>
+  <link href="https://www.heise.de/security/news/news.rdf" rel="alternate" title="Security News (für ältere RSS-Reader)" type="application/rss+xml"/>
+  <link href="/security/icons/apple-touch-icon-60.png" rel="apple-touch-icon" sizes="60x60"/>
+  <link href="/security/icons/apple-touch-icon-120.png" rel="apple-touch-icon" sizes="120x120"/>
+  <link href="/security/icons/apple-touch-icon-76.png" rel="apple-touch-icon" sizes="76x76"/>
+  <link href="/security/icons/apple-touch-icon-152.png" rel="apple-touch-icon-precomposed" sizes="152x152"/>
+  <meta content="News zur Computer-Sicherheit" name="application-name"/>
+  <meta content="heise Security" name="msapplication-tooltip"/>
+  <meta content="/security/" name="msapplication-starturl"/>
+  <meta content="#00408a" name="msapplication-TileColor"/>
+  <meta content="/security/icons/windows_tiny.png" name="msapplication-square70x70logo"/>
+  <meta content="/security/icons/windows_square.png" name="msapplication-square150x150logo"/>
+  <meta content="/security/icons/windows_wide.png" name="msapplication-wide310x150logo"/>
+  <meta content="/security/icons/windows_large.png" name="msapplication-square310x310logo"/>
+  <meta content="frequency=30;polling-uri=http://notifications.buildmypinnedsite.com/?feed=https://www.heise.de/security/news/news-atom.xml&amp;id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed=https://www.heise.de/security/news/news-atom.xml&amp;id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed=https://www.heise.de/security/news/news-atom.xml&amp;id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed=https://www.heise.de/security/news/news-atom.xml&amp;id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed=http//www.heise.de/security/news/news-atom.xml&amp;id=5; cycle=1" name="msapplication-notification"/>
+  <meta content="heise Security" name="DC.creator"/>
+  <link href="http://www.heise.de/stil/security/security2015.css?9be8b6345db527103dc0" rel="stylesheet" type="text/css"/>
+  <style type="text/css">
+   .dbce-class-bp { border:2px; border-style:solid; border-color:#FF0000; padding: 1px; background-color: #ff8000;}
+.dbce-class-content { border:2px; border-style:solid; border-color:#248f24; padding: 1px; background-color: #70db70;}
+.dbce-class-invalid { border:2px; border-style:solid; border-color:#999900; padding: 1px; background-color: #ffff66;}
+.dbce-class-unk { border:2px; border-style:solid; border-color:#3d5c5c; padding: 1px; background-color: #669999;}
+
+.cur-Gah5aipaa { border:2px; border-style:solid; border-color:#FFcc00; padding: 1px; background-color: #ffcccc;}
+.other-Uc9heeK0a { border:2px; border-style:dotted; border-color:#ccFF00; padding: 1px; background-color: #66ff66;}
+.up-Zaachae8a { border:2px; border-style:dotted; border-color:#178819; padding: 1px; background-color: #66aa11;}
+.down-aeMaix1ia { border:2px; border-style:dotted; border-color:#cc00aa; padding: 1px; background-color: #11aa66;}
+.next-ooTheiW0a { border:2px; border-style:dotted; border-color:#212413; padding: 1px; background-color: #ccddaa;}
+.prev-AhCho7aaa { border:2px; border-style:dotted; border-color:#4567ad; padding: 1px; background-color: #981257;}
+  </style>
+  <script src="dbce.js">
+  </script>
+ </head>
+ <body>
+  <div dbce-available-versions="11111" dbce-intern="True" style="position: fixed;">
+   <ul class="list-style-type: none;">
+    <li>
+     <button onclick="toggleBP();">
+      hide/show BP
+     </button>
+    </li>
+    <li>
+     <button onclick="toggleClassType();">
+      s/h CT
+     </button>
+    </li>
+    <li>
+     <a href="report_lsh.html">
+      report
+     </a>
+    </li>
+   </ul>
+  </div>
+  <div class="heisetopnavi no-touch v14">
+   <div class="heisetopnavi_header">
+    <header role="banner">
+     <div class="heisetopnavi_login">
+      <div id="navi_login">
+       <p>
+        <a href="https://www.heise.de/userdb/sso?rm=show_login&amp;dirid=1&amp;objekt=/">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          Einloggen
+         </dbce>
+        </a>
+        <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+         auf heise online
+        </dbce>
+       </p>
+      </div>
+     </div>
+     <div class="heisetopnavi_hover_legacy">
+      <nav role="navigation">
+       <a class="heisetopnavi_logo" href="/" title="heise online">
+        <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+         <img alt="heise online" id="heisetopnavi_ho_logo_top_img" src="http://www.heise.de/icons/ho/heise_online_logo_top.gif"/>
+        </dbce>
+       </a>
+       <a aria-haspopup="true" class="heisetopnavi_button" href="#heisetopnavi_sub_container">
+       </a>
+       <div id="heisetopnavi_sub_container">
+        <ul id="heisetopnavi_sub">
+         <li class="new_list one">
+          <ul>
+           <li class="heisetopnavi_ho">
+            <a href="/" name="dachzeile.ho.ho" title="heise online – IT-News">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              News
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_dev">
+            <a href="/developer/" name="dachzeile.ho.developer" title="heise Developer – Informationen für Entwickler">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              heise Developer
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_net">
+            <a href="/netze/" name="dachzeile.ho.netze" title="heise Netze – Alles über Netzwerk-Technik">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              heise Netze
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_op">
+            <a href="/open/" name="dachzeile.ho.open" title="heise open – Open Source im Unternehmen">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              heise Open Source
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_sec">
+            <a href="/security/" name="dachzeile.ho.security" title="heise Security – News, Dienste und Foren zum Thema Computer-Sicherheit">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              heise Security
+             </dbce>
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class="new_list two">
+          <ul>
+           <li class="heisetopnavi_ct">
+            <a href="/ct/" name="dachzeile.ho.ct" title="c't – Magazin für Computertechnik">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              c't
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_ix">
+            <a href="/ix/" name="dachzeile.ho.ix" title="iX – Magazin für professionelle Informationstechnik">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              iX
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_tr">
+            <a href="/tr/" name="dachzeile.ho.tr" title="Technology Review – Das M.I.T.-Magazin für Innovation">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Technology Review
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_df">
+            <a href="/foto/" name="dachzeile.ho.ct-fotografie" title="c't Fotografie">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              c't Fotografie
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_mac">
+            <a href="/mac-and-i/" name="dachzeile.ho.mac-and-i" title="Mac &amp; i – Nachrichten, Tests, Tipps und Meinungen rund um Apple">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Mac &amp; i
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_hh">
+            <a href="/make/" name="dachzeile.ho.make" title="Make – Kreativ mit Technik">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Make
+             </dbce>
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class="new_list three">
+          <ul>
+           <li class="heisetopnavi_tp">
+            <a href="/tp/" name="dachzeile.ho.tp" title="Telepolis">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Telepolis
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_aut">
+            <a href="/autos/" name="dachzeile.ho.autos" title="heise Autos – News, Tests, Technik, Service rund ums Auto">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              heise Autos
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_tech">
+            <a href="//www.techstage.de/" name="dachzeile.ho.techstage" title="TechStage – News, Tests &amp; Praxis zu Smartphones und Tablets mit Android, iOS, Windows Phone &amp; Co.">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              TechStage
+             </dbce>
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class="new_list four">
+          <ul>
+           <li class="heisetopnavi_swv">
+            <a href="/download/" name="dachzeile.ho.download" title="heise Download – Software zum Download fuer Windows, Mac, Linux, iPhone, Symbian, Android">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              heise Download
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_pvg">
+            <a href="/preisvergleich/" name="dachzeile.ho.preisvergleich" title="Preisvergleich – Günstige Preise, Meinungen und Bewertungen zu vielen Produkten">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Preisvergleich
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_hbs">
+            <a href="https://business-services.heise.de/" name="dachzeile.ho.whitepapers" title="heise Business Services – Produkte und Lösungen namhafter IT-Hersteller">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Whitepapers
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_hbs">
+            <a href="https://business-services.heise.de/" name="dachzeile.ho.webcasts" title="heise Business Services – Produkte und Lösungen namhafter IT-Hersteller">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Webcasts
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_job">
+            <a href="/jobs/" name="dachzeile.ho.jobs" title="heise jobs – Jobbörse für qualifizierte Fach- und Führungskräfte aus der IT-Branche">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Stellenmarkt
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_gutscheine">
+            <a href="https://gutscheine.heise.de/" name="dachzeile.ho.gutscheine" title="heise Gutscheine – Online-Gutscheine helfen dir schnell und einfach Geld zu sparen">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Gutscheine
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_itm">
+            <a href="/itmarkt/" name="dachzeile.ho.itmarkt" title="IT-Markt – Branchenverzeichnis der IT-Fachhändler">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              IT-Markt
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_tarifr">
+            <a href="/tarifrechner/" name="dachzeile.ho.tarifrechner" title="Tarifrechner – DSL, Mobiles Internet, Handy, Telefon, Strom, Gas">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Tarifrechner
+             </dbce>
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class="new_list five">
+          <ul>
+           <li class="heisetopnavi_shop">
+            <a href="https://shop.heise.de/" name="dachzeile.ho.shop" title="heise shop – IT Fachzeitschriften, Bücher, CD/DVD/Blu-ray">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              heise shop
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_kio">
+            <a href="https://shop.heise.de/artikel-archiv/" name="dachzeile.ho.artikel-archiv" title="Artikel-Archiv – c't, iX, Technology Review, c't Fotografie, Mac &amp; i, Make, Sonderhefte">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Artikel-Archiv
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_abo">
+            <a href="https://shop.heise.de/abo" name="dachzeile.ho.abo" title="Abo – c't, iX, Technology Review, c't Fotografie, Mac &amp; i">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Zeitschriften-Abo
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_eve">
+            <a href="/events/" name="dachzeile.ho.events" title="heise Events – Konferenzen, Seminare, Workshops">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Veranstaltungen
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_hmg">
+            <a href="https://heise-gruppe.de/-1812545" name="dachzeile.ho.hmg" title="Arbeiten bei heise – Heise als Arbeitgeber">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Arbeiten bei Heise
+             </dbce>
+            </a>
+           </li>
+           <li class="heisetopnavi_media">
+            <a href="/mediadaten/" name="dachzeile.ho.mediadaten" title="Mediadaten Heise Medien">
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+              Mediadaten
+             </dbce>
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+      </nav>
+     </div>
+     <form accept-charset="utf-8" action="/security/suche/" id="heisetopnavi_search" method="get" role="search">
+      <fieldset>
+       <input class="search_text" data-autocomplete="true" data-searchpath="/security/suche/" name="q" placeholder="in heise Security suchen" type="search" value=""/>
+       <input alt="Los" class="search_submit" name="search_submit" src="//www.heise.de/icons/ho/heise_online_lupe.gif" type="image"/>
+       <input class="search_hidden" name="rm" type="hidden" value="search"/>
+      </fieldset>
+     </form>
+    </header>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+  <div id="container">
+   <div id="container_content">
+    <header id="logo_bereich">
+     <figure id="logo">
+      <a href="/security/" title="heise Security">
+       <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+        heise Security
+       </dbce>
+      </a>
+     </figure>
+     <nav id="security">
+      <ul class="navigation_main">
+       <li class="sub">
+        <a href="/security/news/" title="News">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          News
+         </dbce>
+        </a>
+        <ul class="subnavi">
+         <li>
+          <a href="/security/news/archiv/" title="Archiv">
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+            Archiv
+           </dbce>
+          </a>
+         </li>
+         <li>
+          <a href="/security/news/7_tage_news/" title="7-Tage-News">
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+            7-Tage-News
+           </dbce>
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="aktiv ">
+        <a href="/security/artikel/" title="Hintergrund">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          Hintergrund
+         </dbce>
+        </a>
+       </li>
+       <li class="">
+        <a href="/security/tools/" title="Tools">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          Tools
+         </dbce>
+        </a>
+       </li>
+       <li class="">
+        <a href="/forum/heise-Security/Themen-Hilfe/forum-33385/" title="Foren">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          Foren
+         </dbce>
+        </a>
+       </li>
+       <li class="">
+        <a href="/security/Events-von-heise-Security-3298035.html" title="Events">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          Events
+         </dbce>
+        </a>
+       </li>
+      </ul>
+      <ul class="navigation_social">
+       <li class="kontakt">
+        <a href="/security/kontakt/" title="heise Security Kontakt">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          Kontakt
+         </dbce>
+        </a>
+       </li>
+       <li class="twitter">
+        <a href="https://twitter.com/heisec" name="header.security.sm.twitter" target="_blank" title="heise Security auf Twitter folgen">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          Twitter
+         </dbce>
+        </a>
+       </li>
+       <li class="facebook">
+        <a href="https://www.facebook.com/heisec.de" name="header.security.sm.facebook" target="_blank" title="heise Security auf Facebook folgen">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          Facebook
+         </dbce>
+        </a>
+       </li>
+       <li class="google">
+        <a href="https://plus.google.com/+heisesecurity" name="header.security.sm.google" target="_blank" title="heise Security auf Google+ folgen">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          Google+
+         </dbce>
+        </a>
+       </li>
+       <li class="newsletter">
+        <a href="/newsletter/manage/heisec-summary" name="header.security.sm.newsletter" title="heise Security Newsletter abonnieren">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          Newsletter
+         </dbce>
+        </a>
+       </li>
+       <li class="rss">
+        <a href="/news-extern/news.html#security" name="header.security.sm.rss" title="heise Security RSS-Feeds abonnieren">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          RSS
+         </dbce>
+        </a>
+       </li>
+      </ul>
+     </nav>
+     <ol class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+      <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+       <a href="/security/" itemprop="item" title="Security">
+        <span itemprop="name">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          Security
+         </dbce>
+        </span>
+       </a>
+       <meta content="1" itemprop="position"/>
+      </li>
+      <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+       <a href="/security/artikel/" itemprop="item" title="Hintergrund">
+        <span itemprop="name">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          Hintergrund
+         </dbce>
+        </span>
+       </a>
+       <meta content="2" itemprop="position"/>
+      </li>
+      <li class="active">
+       <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+        Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony, Teil II
+       </dbce>
+      </li>
+     </ol>
+    </header>
+    <section data-equal-max=".equal_height" id="mitte">
+     <section class="equal_height" id="mitte_links">
+      <div id="artikel">
+       <article>
+        <h1>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony, Teil II
+         </dbce>
+        </h1>
+        <figure class="aufmacherbild">
+         <dbce class="cur-Gah5aipa">
+          <img src="http://1.f.ix.de/scale/geometry/600/q75/security/imgs/07/1/8/7/6/9/1/7/Auge-0852aae5e11b990a-e4718f2b6aa57e4e.jpeg"/>
+         </dbce>
+        </figure>
+        <p class="vorlauf">
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Wie diese Analysiert:-Folge enthüllt, weist die scheinbar perfekte Verschlüsselung des RAA-Trojaners doch Lücken auf. Auch der von RAA gestartete Passwort-Dieb kann sich mit seinen Anti-Debugging-Tricks der Analyse nicht entziehen.
+         </dbce>
+        </p>
+        <h3>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Olivia von Westernhagen
+         </dbce>
+         <span class="datum">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           - 05.09.2016
+          </dbce>
+         </span>
+        </h3>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Meine Analyse der AES-Verschlüsselung des Erpressungs-Trojaners RAA
+         </dbce>
+         <a href="/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-3303113.html">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           im ersten Teil
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          zeigte, dass diese wohl kaum zu knacken ist. Das Schlüssel-Material wird auf dem zentralen C&amp;C-Server der Erpresser erzeugt und ist nur während der Verschlüsselung kurzfristig im Arbeitsspeicher des Opfer-PCs präsent. Ohne das kann man aber die verschlüsselten Daten nicht dechiffrieren. Die weitere Analyse zeigt jedoch, dass man die Hoffnung, an seine Daten zu kommen, nicht ganz aufgeben muss.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Verschlüsselt werden Dateien mit den Endungen .doc; .xls, .rtf, .pdf, .dbf, .jpg , .dwg, .cdr, .psd, .cd, .mdb, .png, .lcd, .zip und .rar. Ausdrücklich ausgenommen sind Dateien, bei denen die Zeichen "~" oder "$" im Namen darauf hinweisen, dass sie temporär sind. Auch bereits vorhandene verschlüsselte Dateien mit ".locked"-Endung verschlüsselt der Trojaner nicht noch einmal. Auch im Hinblick auf den Speicherort trifft die Ransomware eine Auswahl: Dateien, die sich im Papierkorb, im TEMP-Ordner, in AppData oder ProgramData, in Program Files oder Program Files (x86) oder in den Ordnern Microsoft oder WINDOWS finden, fasst sie nicht an. Gleiches gilt für Dateien in sämtlichen Unterordnern dieser Liste.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Besonders interessant ist, dass die Dateigröße entscheidet, ob und wie verschlüsselt wird. Die zugehörige if-Abfrage enthüllt folgende Kriterien:
+         </dbce>
+        </p>
+        <ul>
+         <li>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           Dateien, die kleiner sind, als 6122 Byte, werden im Ganzen verschlüsselt,
+          </dbce>
+         </li>
+         <li>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           von Dateien, die zwischen 6123 Byte und 5 MByte groß sind, werden maximal die ersten 6,12 KByte verschlüsselt und
+          </dbce>
+         </li>
+         <li>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           bei Dateien mit einer Größe zwischen knapp über 5 MByte und 500 MByte sind es maximal 250 KByte.
+          </dbce>
+         </li>
+         <li>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           Dateien oberhalb dieser Grenze bleiben grundsätzlich unverschlüsselt.
+          </dbce>
+         </li>
+        </ul>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Über die Gründe für dieses Vorgehen kann man nur spekulieren. Vermutlich sind es Optimierungsversuche, die der Tatsache geschuldet sind, dass die AES-Implementierung der eingesetzten CryptJS-Bibliothek sehr langsam ist und der Verschlüsselungsvorgang aller Dateien trotzdem nicht allzu lange dauern soll. Schließlich könnte das Opfer etwa auf Grund der dauernden Festplattenaktivitäten womöglich Verdacht schöpfen und durch rechtzeitige Reaktion noch Daten retten.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Doch diese Optimierung eröffnet Opfern zumindest eine Chance. Denn die nur teilweise verschlüsselten Dateien lassen sich zwar nicht mehr öffnen; mit viel Geduld und Handarbeit kann man aus ihnen jedoch noch unverschlüsselte Fragmente der Originaldaten retten.
+         </dbce>
+        </p>
+        <h3 class="subheading">
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Zugriff auf Dateien und Registry per ActiveX und WSH
+         </dbce>
+        </h3>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Der in Microsofts JavaScript-Dialekt JScript realisierte Trojaner nutzt die Möglichkeiten des Windows Scripting Host (WSH) weidlich aus, unter anderem um auf das Dateisystem zuzugreifen. Dazu erzeugt er sich jeweils ActiveX-Objekte wie:
+         </dbce>
+        </p>
+        <pre><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">arqt = new</dbce> <span class="tx_green"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">ActiveXObject</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(</dbce><span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">"Scripting.FileSystemObject"</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">);</dbce></pre>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          die er dann unter anderem verwendet, um Dateien zu finden, zu verschlüsseln und schließlich umzubenennen:
+         </dbce>
+        </p>
+        <pre><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">arqt.</dbce><span class="tx_green"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">MoveFile</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(nTQXname, nTQXname +=</dbce> <span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">".locked"</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">);</dbce></pre>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Auch die Möglichkeit, per WScript Object lesend und schreibend auf die Registry zuzugreifen, nutzt RAA intensiv. Mittels eines neuen Eintrags unter
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          setzt sich die Ransomware in den Autostart. So stellt sie sicher, dass er nach einem Reboot des Rechners seine heimtückische Arbeit fortsetzen und insbesondere auch neu hinzugekommene ebenfalls verschlüsseln kann.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Um die Wiederherstellung der verschlüsselten Dateien mittels Schattenkopien zu verhindern, greift RAA auf den Eintrag des Volume Shadow Copy Service unter
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           HKLM\SYSTEM\CurrentControlSet\services\VSS
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          zu. Dort löscht er zunächst sämtliche Subkeys samt Werten und letztlich auch den Eintrag selbst. Scheitert einer dieser Aufrufe, etwa wegen fehlender Admin-Rechte, fährt er einfach mit den folgenden Anweisungen fort.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Zum anderen legt die Ransomware auch einen neuen Schlüssel namens RAA in
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           HKEY_CURRENT_USER
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          sowie zwei Unterschlüssel namens Raa-ID und Raa-fnl an. Der unter Raa-ID eingetragene Wert entspricht dabei der ID, die dem Nutzer im Erpresser-Dokument angezeigt sowie beim GET-Request an den C&amp;C-Server übermittelt wird. Raa-fnl wiederum erhält den Wert
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           beenFinished
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          , nachdem das JScript erstmals vollständig (und erfolgreich) ausgeführt wurde.
+         </dbce>
+        </p>
+        <h3 class="subheading">
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Extrahieren von Dateien und Starten von Prozessen
+         </dbce>
+        </h3>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Den Text des scheinbar beschädigten, zur Tarnung angezeigten Dokuments sowie der Lösegeldforderung extrahiert RAA unter Verwendung von CryptoJS aus zwei verschlüsselten Strings. Ein weiterer, offensichtlich verschlüsselter String entpuppt sich bei der Analyse als der Programmcode eines zweiten Trojaners, den RAA quasi Huckepack mitbringt: den Password Stealer Pony. Dabei setzt RAA einige bekannte Obfuscation-Techniken ein.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Der zugehörige JScript-Code sieht zu Beginn folgendermaßen aus:
+         </dbce>
+        </p>
+        <pre><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">function RunThePony() {</dbce><br/> <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">var</dbce> <span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">data_pn</dbce></span> <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">= "TVrDiQNMSIO…"</dbce> <span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">//Pony-Code, base64-codiert</dbce></span><br/> <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">var</dbce> <span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">cmd</dbce></span> <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">= "U2FsdGVkX1/…"</dbce>   <span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">//AES-verschlüsselter Jscript-Code</dbce></span><br/> <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">var</dbce> <span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">key_cmd</dbce></span> <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">= "2c025c0a1a45d1f18df9ca3514babdbc";</dbce><br/> <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">var</dbce> <span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">dec_cmd</dbce></span> <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">=</dbce> <span class="tx_green"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">CryptoJS.AES.decrypt</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(cmd, key_cmd);</dbce><br/> <span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">dec_cmd</dbce></span> <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">=</dbce> <span class="tx_green"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">CryptoJS.enc.Utf8.stringify</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(</dbce><span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">dec_cmd</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">);</dbce><br/> <span class="tx_green"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">eval</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(</dbce><span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">dec_cmd</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">);</dbce><br/> <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">return 0;</dbce><br/><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">}</dbce></pre>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Beim Funktionsaufruf wird der Inhalt der Variable
+         </dbce>
+         <span class="tx_red">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           cmd
+          </dbce>
+         </span>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          mit dem in
+         </dbce>
+         <span class="tx_red">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           key_cmd
+          </dbce>
+         </span>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          gespeicherten Key entschlüsselt, wobei der bereits erwähnte AES-Algorithmus aus der CryptoJS-Bibliothek zum Einsatz kommt. Nach einer Umwandlung in UTF-8 wird der entschlüsselte String per
+         </dbce>
+         <span class="tx_green">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           eval
+          </dbce>
+         </span>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          -Funktion ausgeführt. Ich ersetze
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           eval
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          durch
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           document.write
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          und kopiere die Funktion samt des CryptoJS-Codes in ein HTML-Dokument. Als ich die dann im Browser öffne, schreibt sie mir damit das entschlüsselte JScript ins Browser-Fenster. Ich kopiere den Code und unterziehe ihn abermals einer Verschönerung durch einen Beautifier.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Die wichtigsten Zeilen lauten wie folgt:
+         </dbce>
+        </p>
+        <pre><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">var flo = new</dbce> <span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">ActiveXObject</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(</dbce><span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">"ADODB.Stream"</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">);</dbce><br/><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">var runer =</dbce> <span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">WScript.</dbce></span><span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">CreateObject</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(</dbce><span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">"WScript.Shell"</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">);</dbce><br/><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">var wher = runer.</dbce><span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">SpecialFolders</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(</dbce><span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">"MyDocuments"</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">);</dbce><br/><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">wher = wher +</dbce> <span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">"\\"</dbce></span> <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">+</dbce> <span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">"st.exe"</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">;</dbce><br/><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">flo.</dbce><span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">Open</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">();</dbce><br/><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">var pny = data_pn.</dbce><span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">replace</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(/NMSIOP/g,</dbce> <span class="tx_red"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">"A"</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">);</dbce><br/><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">var pny_ar =</dbce> <span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">CryptoJS.enc.Base64.parse</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(pny);</dbce><br/><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">var pny_dec = pny_ar.</dbce><span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">toString</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(</dbce><span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">CryptoJS.enc.Utf8</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">);</dbce><br/><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">flo.</dbce><span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">WriteText</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(pny_dec);</dbce><br/><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">flo.</dbce><span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">SaveToFile</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(wher, 2);</dbce><br/><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">runer.</dbce><span class="tx_blue"><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">Run</dbce></span><dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">(wher);</dbce></pre>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Der Pony-Code wird zunächst einer Ersetzung unterzogen (alle Vorkommen von
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           "NMSIOP
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          " werden zu "
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           A
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          ") und anschließend dekodiert. Dann folgt die Speicherung als
+         </dbce>
+         <span class="tx_red">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           st.exe
+          </dbce>
+         </span>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          in
+         </dbce>
+         <span class="tx_red">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           MyDocuments
+          </dbce>
+         </span>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          . Wie bei der Erstellung der beiden Textdokumente kommen auch hier zwei COM-Objekte (einmal in Form eines ADO-Stream-Objekts und einmal in Gestalt des mittels
+         </dbce>
+         <span class="tx_blue">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           WScript.CreateObject
+          </dbce>
+         </span>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          hergestellten Shell-Zugangs) zum Schreiben und Ausführen der neuen Datei zum Einsatz. Durch Entfernen der letzten Zeile mit dem
+         </dbce>
+         <span class="tx_blue">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           Run
+          </dbce>
+         </span>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          ()-Aufruf verhindere ich das Ausführen des Info-Stealers und führe das Skript-Fragment ebenfalls aus. Ich warte die – verhältnismäßig zeitaufwändige – Prozedur der Datei-Erstellung ab, bevor ich den entschlüsselten Info-Stealer Pony im
+         </dbce>
+         <a href="https://www.immunityinc.com/products/debugger/" rel="external" target="_blank">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           Immunity-Debugger
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          öffne.
+         </dbce>
+        </p>
+        <h3 class="subheading">
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Ein Pony mit langen Fingern
+         </dbce>
+        </h3>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Bei dem im vorliegenden Fall etwa 200 KByte großen Info-Stealer Pony
+         </dbce>
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+          handelt sich um
+         </dbce>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          eine Art Baukasten-Trojaner, der mittels des so genannten "PonyBuilders" ohne Programmierkenntnisse zusammengeklickt werden kann. Der Sourcecode der 2012 und 2014 geleakten Pony-Versionen 1.9 und 2.0 ist online verfügbar und wird von Cyberkriminellen gern zu ihren jeweiligen Zwecken modifiziert. Die automatische Suche nach Textstrings (oder alternativ der Blick auf die Virustotal-Analyse) zeigt mir, dass "meine" Pony-Variante mit Visual C++ kompiliert wurde. Ein Packer oder Obfuscator wurde nicht verwendet.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Beim Ausführen des Codes im Debugger – wie immer arbeite ich durchgängig in einer virtuellen Maschine – tritt eine seltsame Exception auf. Einer Ahnung folgend, schließe ich den Debugger und starte die Datei st.exe noch einmal separat, wobei ich den Vorgang mit dem Process Monitor
+         </dbce>
+         <a href="https://www.heise.de/download/product/sysinternals-suite-48696">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           aus der Sysinternals Suite
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          überwache. Das Ergebnis des Monitoring ist zum einen ein echtes "Aha"-Erlebnis, das mir die wichtigsten Funktionen des diebischen Ponys innerhalb von Sekunden vor Augen führt.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Zum anderen weiß ich nun, dass Pony zwar keine Anti-VM-, durchaus aber Anti-Debugging-Techniken einsetzt, die den Programmablauf im Debugger beeinflussen. Dazu zählen im konkreten Fall unter anderem der Anruf von
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           IsDebuggerPresent()
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          , zeitbasierte Detection-Mechanismen (
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           GetSystemTimeAsFileTime()
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          ,
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           GetTickCount()
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          ) sowie der Versuch, den Debugger daran zu erkennen, ob er das Exception-Handling übernimmt (
+         </dbce>
+         <code>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           UnhandledExceptionFilter()
+          </dbce>
+         </code>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          ).
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Um zusätzlich auch die rein statische Analyse zu erschweren, entschlüsselt die vorliegende Pony-Variante einen Teils ihres Programmcodes erst zur Laufzeit, schreibt ihn im Anschluss an einen VirtualAlloc()-Aufruf in neu allokierten Arbeitsspeicher und springt zu einem späteren Zeitpunkt an die neue Adresse.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Doch davon lasse ich mich nicht abhalten. Schon öfter half mir in solchen Situationen
+         </dbce>
+         <a href="https://tuts4you.com/download.php?view.2168" rel="external" target="_blank">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           das PhantOm-Plugin von Hellsp@wn
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          . Die ursprünglich für den Debugger OllyDbg geschriebene und für Immunity überarbeitete Anti-Anti-Debug-Erweiterung erkennt und umgeht rund zwei Dutzend Tricks zur Debugger-Erkennung. Das ist besonders effizient, wenn wie in Ponys Fall ein ganzes Arsenal von Anti-Debugging-Techniken zum Einsatz kommt, die sich nur mühsam einzeln aufspüren und ausschalten lassen.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Eine der ersten Erkenntnisse meines Testlaufs im Immunity-Debugger: Der Trojaner überprüft offenbar, ob er umbenannt wurde. Entdeckt er einen Dateinamen wie file.exe, sample.exe, t.exe, myapp.exe oder self.exe, führt er die Schadfunktionen im Code nicht aus. Diese Selbstabschaltung greift jedoch nur, wenn die Datei direkt in C:\ liegt. Das lässt mich vermuten, dass es sich weniger um einen weiteren Anti-Analyse-Trick handelt, als vielmehr einen trivialen Mechanismus während des Programmierens eine Selbstinfektion zu vermeiden.
+         </dbce>
+         <span class="bild_rechts" style="width:157px;">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           <img alt="Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony" data-zoom-src="/security/imgs/07/1/8/7/6/9/1/7/image5-0e8260c101e61ba3.jpeg" height="200" src="http://1.f.ix.de/security/imgs/07/1/8/7/6/9/1/7/image5-90ad405a66a0f6b9.jpeg" width="157"/>
+          </dbce>
+          <br/>
+          <span class="bildunterschrift">
+           <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+            Bitcoin-Wallets stehen weit oben auf der Prioritäten-Liste des diebischen Ponys.
+           </dbce>
+           <a class="linkurl_grossbild" href="/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-Teil-II-3303401.html?view=zoom;zoom=5">
+            <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+             <img alt="Vergrößern" height="16" src="http://1.f.ix.de/icons/lupe.png" title="Vergrößern" width="16"/>
+            </dbce>
+           </a>
+          </span>
+         </span>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Da der Info-Stealer in der Vergangenheit bereits häufiger im Detail analysiert und seine wichtigsten Funktionen zudem in einer mit dem
+         </dbce>
+         <a href="https://github.com/nyx0/Pony/tree/master/source" rel="external" target="_blank">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           geleakten Pony-Code
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          veröffentlichten Hilfedatei beschrieben wurden, verzichte ich auf eine vollständige Beschreibung. Ausgehend vom Pony 2.0 Sourcecode lässt sich zusammenfassend festhalten, dass lokal gespeicherte Passwörter aus über 100 Anwendungen – darunter unter anderem FTP-, Bitcoin- und E-Mail-Clients sowie Daten aus gängigen Browsern wie Chrome, Firefox, Opera und Internet Explorer – ausgelesen und dekodiert werden.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Pony sendet die Berichte mit den gestohlenen Daten an eine vordefinierte URL, die ich im Hex-Dump des entschlüsselten Codes finde. Wie erwartet wird sie in dieselbe IP aufgelöst wie die URL aus der RAA-Ransomware. Diese gehört zum ECATEL Network, einem in Amsterdam ansässigen Virtual-Private-Server-Anbieter, der in den vergangenen Jahren durch von dort ausgehender DoS-Attacken und Spam-Kampagnen mehrfach für Negativ-Schlagzeilen sorgte. In der
+         </dbce>
+         <a href="https://www.virustotal.com/en/ip-address/94.102.50.50/information/" rel="external" target="_blank">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           Virustotal-Zusammenfassung zu dieser IP-Adresse
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          finde ich auch prompt die SHA256-Hashes beider von mir betrachteter Dateien wieder.
+         </dbce>
+        </p>
+        <p>
+         <span class="bild_zentriert" style="width:400px;">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           <img alt="Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony" data-zoom-src="/security/imgs/07/1/8/7/6/9/1/7/image6-36b5e8860b0b339c.jpeg" height="160" src="http://1.f.ix.de/security/imgs/07/1/8/7/6/9/1/7/image6-6b79389c0f4dad3c.jpeg" width="400"/>
+          </dbce>
+          <br/>
+          <span class="bildunterschrift">
+           <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+            Beide URLs werden zur selben IP aufgelöst.
+           </dbce>
+           <a class="linkurl_grossbild" href="/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-Teil-II-3303401.html?view=zoom;zoom=6">
+            <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+             <img alt="Vergrößern" height="16" src="http://1.f.ix.de/icons/lupe.png" title="Vergrößern" width="16"/>
+            </dbce>
+           </a>
+          </span>
+         </span>
+        </p>
+        <h3 class="subheading">
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Fazit: Neuartige Ransomware mit altbewährtem Begleiter
+         </dbce>
+        </h3>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Die Idee, den Windows Script Host zum Ausführen von Malware zu verwenden, wurde bereits in der Vergangenheit und vornehmlich durch VBScript-Dateien mit der Endung .vbs umgesetzt. Wichtig ist in diesem Zusammenhang im Hinterkopf zu behalten, dass die RAA-Ransomware in ihrer jetzigen Form nicht plattformübergreifend funktioniert, da es sich eben nicht um reines JavaScript handelt. Dies wird in gleicher Weise auch für jede künftig auftauchende Malware gelten, die Gebrauch von den Funktionserweiterungen macht, die Microsofts JScript in Verbindung mit dem WSH auszeichnen.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Da die sich hieraus ergebenden Möglichkeiten der Systemmanipulation und des Datendiebstahls bei weitem noch nicht ausgeschöpft sind, ist es sehr wahrscheinlich, dass schon bald weitere und ausgereiftere JScript-Schädlinge mit den unterschiedlichsten Schadfunktionen auftauchen werden. Auch die schnell und einfache Modifizierbarkeit und Wiederverwertbarkeit von Codepassagen sind gute Gründe, dies anzunehmen.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Bei Trend Micro war überdies zu lesen, dass
+         </dbce>
+         <a href="http://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/new-raa-ransomware-uses-only-javascript-to-infect-computers" rel="external" target="_blank">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           Antiviren-Scanner Skripte weniger zuverlässig erkennen
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          als Dateiformate, die häufiger für Malware verwendet werden. Die Tatsache, dass bei Virustotal auch mehr als drei Wochen nach dem ersten Scan lediglich von 26 der aufgeführten 52 Malware-Scanner den RAA-Erpressungs-Trojaner erkennen, scheint diese Annahme zu untermauern.
+         </dbce>
+        </p>
+        <p>
+         <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+          Im Vergleich zur Idee einer Ransomware in Skript-Form ist der Pony-Trojaner – Achtung: schlechter Wortwitz – bereits ein alter Hase, der das Internet schon seit ein paar Jahren unsicher macht. Die Analyse hat gezeigt, dass nach dem Auspacken und Starten keine Interaktion zwischen den beiden Schädlingen stattfindet. Gerade durch diese Unabhängigkeit steigen die Chancen, dass zumindest einer der beiden Angriffe von Erfolg gekrönt ist und der Täter wenn schon kein Lösegeld, dann zumindest einige Passwörter oder gar Bitcoin-Wallets abstauben kann.
+         </dbce>
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+          (
+         </dbce>
+         <a href="mailto:ju@ct.de">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+           ju
+          </dbce>
+         </a>
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+          )
+         </dbce>
+         <br/>
+        </p>
+        <p>
+        </p>
+        <div class="heisebox">
+         <h4>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           Analysiert - die Serie auf heise Security
+          </dbce>
+          <br/>
+         </h4>
+         <p>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           Im Rahmen der losen
+          </dbce>
+          <a href="/thema/Analysiert">
+           <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+            heise-Security-Serie "Analysiert:"
+           </dbce>
+          </a>
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           werfen Experten einen Blick hinter die Kulissen von aktuellen Schädlingen, Betrugsmaschen oder anderen Tricks, die Sie um Ihre Daten bringen sollen.
+          </dbce>
+         </p>
+        </div>
+        <p>
+        </p>
+        <div class="article-footer artikel">
+         <div class="link_forum_beitrag">
+          <p>
+           <a href="https://www.heise.de/forum/heise-Security/Kommentare/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-Teil-II/forum-362905/comment/">
+            <b>
+             <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+              Kommentare lesen
+             </dbce>
+             <dbce class="cur-Gah5aipa">
+              (2
+             </dbce>
+             <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+              Beiträge)
+             </dbce>
+            </b>
+           </a>
+          </p>
+         </div>
+         <p class="themen_foren">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+           Forum zum Thema:
+          </dbce>
+          <a href="/forum/heise-Security/Themen-Hilfe/Hilfe-bei-Erpressungs-Trojanern/forum-256381/comment/">
+           <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+            Hilfe bei Erpressungs-Trojanern
+           </dbce>
+          </a>
+         </p>
+         <div class="shariff clear" data-backend-url="/shariff-backend/" data-services='["facebook","twitter","googleplus","mail","info"]'>
+         </div>
+         <p class="permalink">
+          <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+           Permalink:
+          </dbce>
+          <a href="http://heise.de/-3303401">
+           <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+            http://heise.de/-3303401
+           </dbce>
+          </a>
+         </p>
+         <p class="printversion">
+          <a href="/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-Teil-II-3303401.html?view=print" rel="nofollow">
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+            Version zum Drucken
+           </dbce>
+          </a>
+         </p>
+        </div>
+       </article>
+      </div>
+      <div class="adbottom">
+       <a class="hinweis_anzeige" href="http://www.heise.de/mediadaten/online/" target="_blank">
+        <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+         Anzeige
+        </dbce>
+       </a>
+       <br/>
+       <div id="div-gpt-ad-1">
+       </div>
+      </div>
+     </section>
+     <aside class="equal_height" id="mitte_rechts">
+      <nav class="dienste_liste">
+       <h5 class="section_header">
+        <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+         Dienste
+        </dbce>
+       </h5>
+       <ul>
+        <li>
+         <a href="/security/dienste/Der-heise-Security-Consulter-2126442.html">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+           Security Consulter
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/security/dienste/Netzwerkcheck-2114.html">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+           Netzwerkcheck
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/security/dienste/AntiVirus-2071.html">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+           Anti-Virus
+          </dbce>
+         </a>
+        </li>
+       </ul>
+       <ul>
+        <li>
+         <a href="/security/dienste/Emailcheck-2109.html">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+           Emailcheck
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/security/dienste/Browsercheck-2107.html">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+           Browsercheck
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/security/dienste/Krypto-Kampagne-2111.html">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+           Krypto-Kampagne
+          </dbce>
+         </a>
+        </li>
+       </ul>
+      </nav>
+      <div class="bcadv ISI_IGNORE bcadv_oben">
+       <a class="hinweis_anzeige" href="http://www.heise.de/mediadaten/online/" target="_blank">
+        <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+         Anzeige
+        </dbce>
+       </a>
+       <br/>
+       <div id="div-gpt-ad-2">
+       </div>
+      </div>
+      <section class="teaser_aktuelle_beitraege">
+       <header class="teaser_titel">
+        <a href="/security/artikel/">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+          Artikel
+         </dbce>
+        </a>
+       </header>
+       <article class="anriss">
+        <a href="/security/artikel/Wachsende-Kritik-an-Public-Key-Pinning-fuer-HTTPS-3324703.html" title="Wachsende Kritik an Public Key Pinning für HTTPS">
+         <header>
+          <h3>
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+            Wachsende Kritik an Public Key Pinning für HTTPS
+           </dbce>
+          </h3>
+         </header>
+         <figure>
+          <dbce class="cur-Gah5aipa next-ooTheiW0">
+           <img alt="Wachsende Kritik an Public Key Pinning für HTTPS" height="56" src="http://1.f.ix.de/security/imgs/07/1/8/9/1/2/2/5/Graduation_Icon-89e3b679f7507d6f.png" title="Wachsende Kritik an Public Key Pinning für HTTPS" width="100"/>
+          </dbce>
+         </figure>
+         <p>
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa">
+           Die noch recht junge Technik der Zertifikats-Pinnings für HTTPS bekommt Gegenwind. Prominente Kritiker wie Ivan Ristic prophezeien sogar schon ihren absehbaren Tod: Zu kompliziert und zu gefährlich, lautet deren Diagnose.
+          </dbce>
+         </p>
+        </a>
+       </article>
+       <article class="anriss">
+        <a href="/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-Teil-II-3303401.html" title="Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony, Teil II">
+         <header>
+          <h3>
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+            Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony, Teil II
+           </dbce>
+          </h3>
+         </header>
+         <figure>
+          <dbce class="cur-Gah5aipa">
+           <img alt="Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony" height="56" src="http://1.f.ix.de/security/imgs/07/1/8/7/6/9/1/7/Auge-0852aae5e11b990a-9a868cee5fb9b7cf.jpeg" title="Analysiert: Ransomware meets Info-Stealer - RAA und das diebische Pony" width="100"/>
+          </dbce>
+         </figure>
+         <p>
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Wie diese Analysiert:-Folge enthüllt, weist die scheinbar perfekte Verschlüsselung des RAA-Trojaners doch Lücken auf. Auch der von RAA gestartete Passwort-Dieb kann sich mit seinen Anti-Debugging-Tricks der Analyse nicht entziehen.
+          </dbce>
+         </p>
+        </a>
+       </article>
+       <article class="anriss">
+        <a href="/security/artikel/Moxie-Marlinspike-Anarchist-und-Krypto-Ikone-3294958.html" title="Moxie Marlinspike, Anarchist und Krypto-Ikone">
+         <header>
+          <h3>
+           <dbce class="cur-Gah5aipa">
+            Moxie Marlinspike, Anarchist und Krypto-Ikone
+           </dbce>
+          </h3>
+         </header>
+         <figure>
+          <dbce class="cur-Gah5aipa">
+           <img alt="Moxie Marlinspike, Anarchist und Krypto-Ikone" height="56" src="http://1.f.ix.de/security/imgs/07/1/8/7/1/3/9/3/moxie-7a9440724273b6d5.jpeg" title="Moxie Marlinspike, Anarchist und Krypto-Ikone" width="100"/>
+          </dbce>
+         </figure>
+         <p>
+          <dbce class="cur-Gah5aipa">
+           Wer ist eigentlich Moxie Marlinspike? Der Hacker, der die Verschlüsselung von WhatsApp erfand, führt ein äußerst faszinierendes Leben.
+          </dbce>
+         </p>
+        </a>
+       </article>
+      </section>
+      <p class="us_ad">
+       <span>
+        <a class="hinweis_anzeige" href="/mediadaten/heise-online/" target="_blank">
+         <dbce class="cur-Gah5aipa">
+          Anzeige
+         </dbce>
+        </a>
+       </span>
+       <br/>
+       <a href="http://pubads.g.doubleclick.net/gampad/clk?id=45575990&amp;iu=/6514/www.heise.de/clicktracking/usAd" target="_blank">
+        <dbce class="cur-Gah5aipa">
+         <img alt="" height="200" src="http://1.f.ix.de/security/imgs/07/1/8/8/1/4/0/5/ecmsuite10_contract_usAd_heise-0d7098a0da58665a.jpg" width="336"/>
+        </dbce>
+       </a>
+      </p>
+      <div class="teaser_adliste">
+       <p>
+        <a class="hinweis_anzeige" href="/mediadaten/heise-online/" target="_blank">
+         <dbce class="cur-Gah5aipa">
+          Anzeige
+         </dbce>
+        </a>
+       </p>
+       <ul class="microsites">
+        <li>
+         <a href="http://pubads.g.doubleclick.net/gampad/clk?id=44257670&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">
+          <dbce class="cur-Gah5aipa">
+           The IT-Expo for Data Security and IT-Security
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="http://pubads.g.doubleclick.net/gampad/clk?id=45335390&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">
+          <dbce class="cur-Gah5aipa">
+           Flexibler und günstiger: Arbeitsplatz mieten
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="http://pubads.g.doubleclick.net/gampad/clk?id=45499910&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Mobile Geräte im Unternehmen sicher managen
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="http://pubads.g.doubleclick.net/gampad/clk?id=45433310&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Das Insider Portal – Fakten zu aktuellen IT-Themen
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="http://pubads.g.doubleclick.net/gampad/clk?id=45292190&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Kosten senken: Was tun mit "kalten" Daten?
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="http://pubads.g.doubleclick.net/gampad/clk?id=42360350&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">
+          <dbce class="cur-Gah5aipa">
+           APIs: Wildwuchs vermeiden und Überblick behalten
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="http://pubads.g.doubleclick.net/gampad/clk?id=33650150&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">
+          <dbce class="cur-Gah5aipa">
+           Über 600 kostenlose eBooks für Bildung und Beruf
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="http://pubads.g.doubleclick.net/gampad/clk?id=47404070&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">
+          <dbce class="cur-Gah5aipa">
+           Über 5.000 Gutscheine für heise online User
+          </dbce>
+         </a>
+        </li>
+       </ul>
+      </div>
+      <section class="forum_latest_posting_teaser print-avoid-pagebreak-inside">
+       <header class="latest_posting_title">
+        <a href="/forum/forum-33370/">
+         <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+          Neueste Forenbeiträge
+         </dbce>
+        </a>
+       </header>
+       <ol class="forum_latest_posting_list">
+        <li>
+         <article class="latest_posting_snippet">
+          <header class="title">
+           <a href="/forum/posting-29263562/show/">
+            <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+             Re:
+            </dbce>
+            <dbce class="cur-Gah5aipa">
+             Wieso
+            </dbce>
+           </a>
+          </header>
+          <a class="comment" href="/forum/posting-29263562/show/">
+           <dbce class="cur-Gah5aipa">
+            m.ts schrieb am 23.06.2016 16:43:
+
+Hier sind nun einmal wir unterwegs, die Adressaten sind hier eben nicht zu finden.
+
+Scheißartikel.
+
+VG odol
+           </dbce>
+          </a>
+          <p class="forum">
+           <span>
+            <dbce class="cur-Gah5aipa">
+             Forum:
+            </dbce>
+           </span>
+           <a class="comments_forum" href="/forum/forum-358272/">
+            <dbce class="cur-Gah5aipa">
+             Krypto-Trojaner Cerber: Angebliche Mediamarkt-Bestellung kommt Empfänger teuer zu stehen
+            </dbce>
+           </a>
+          </p>
+         </article>
+         <figure class="latest_posting_meta clearfix">
+          <dbce class="cur-Gah5aipa">
+           <img alt="preumich hat keinen Avatar" class="avatar no_avatar" src="http://www.heise.de/foto/icons/galerie/avatar_48.png"/>
+          </dbce>
+          <figcaption class="forum_latest_posting_meta">
+           <span class="user">
+            <dbce class="cur-Gah5aipa">
+             von preumich;
+            </dbce>
+           </span>
+           <time class="comments_time" datetime="2016-09-26T14:35:04+02:00" title="26.09.2016 14:35">
+            <dbce class="cur-Gah5aipa">
+             26.09.2016 14:35
+            </dbce>
+           </time>
+          </figcaption>
+         </figure>
+        </li>
+        <li>
+         <article class="latest_posting_snippet">
+          <header class="title">
+           <a href="/forum/posting-29263221/show/">
+            <dbce class="cur-Gah5aipa">
+             Re: Desinfect im Netzwerk - Google DNS wird von Firewall geblockt - kein Netzwer
+            </dbce>
+           </a>
+          </header>
+          <a class="comment" href="/forum/posting-29263221/show/">
+           <dbce class="cur-Gah5aipa">
+            Ich habe mir die Neue Desinfect 2016/17 (Sonderheft) gekauft, dort ist Ubuntu 16.04.1 LTS im Einsatz, selbes Problem. 
+
+Ich kann auf der ganze…
+           </dbce>
+          </a>
+          <p class="forum">
+           <span>
+            <dbce class="cur-Gah5aipa">
+             Forum:
+            </dbce>
+           </span>
+           <a class="comments_forum" href="/forum/forum-33383/">
+            <dbce class="cur-Gah5aipa">
+             Desinfect
+            </dbce>
+           </a>
+          </p>
+         </article>
+         <figure class="latest_posting_meta clearfix">
+          <dbce class="cur-Gah5aipa">
+           <img alt="Tauchkomputer hat keinen Avatar" class="avatar no_avatar" src="http://www.heise.de/foto/icons/galerie/avatar_48.png"/>
+          </dbce>
+          <figcaption class="forum_latest_posting_meta">
+           <span class="user">
+            <dbce class="cur-Gah5aipa">
+             von Tauchkomputer;
+            </dbce>
+           </span>
+           <time class="comments_time" datetime="2016-09-26T13:49:48+02:00" title="26.09.2016 13:49">
+            <dbce class="cur-Gah5aipa">
+             26.09.2016 13:49
+            </dbce>
+           </time>
+          </figcaption>
+         </figure>
+        </li>
+        <li>
+         <article class="latest_posting_snippet">
+          <header class="title">
+           <a href="/forum/posting-29262610/show/">
+            <dbce class="cur-Gah5aipa">
+             Re: Sicherheit wirklich beeinträchtigt?
+            </dbce>
+           </a>
+          </header>
+          <a class="comment" href="/forum/posting-29262610/show/">
+           <dbce class="cur-Gah5aipa">
+            Sprachtot47 schrieb am 26.09.2016 11:45:
+
+Naja, doch schon. Aber wie realistisch ist das ganze? Der Hersteller dieser Software behauptet…
+           </dbce>
+          </a>
+          <p class="forum">
+           <span>
+            <dbce class="cur-Gah5aipa">
+             Forum:
+            </dbce>
+           </span>
+           <a class="comments_forum" href="/forum/forum-364207/">
+            <dbce class="cur-Gah5aipa">
+             iOS 10: Schwachstelle vereinfacht Attacken auf verschlüsselte Backups
+            </dbce>
+           </a>
+          </p>
+         </article>
+         <figure class="latest_posting_meta clearfix">
+          <dbce class="cur-Gah5aipa">
+           <img alt="Paul Muad'Dib hat keinen Avatar" class="avatar no_avatar" src="http://www.heise.de/foto/icons/galerie/avatar_48.png"/>
+          </dbce>
+          <figcaption class="forum_latest_posting_meta">
+           <span class="user">
+            <dbce class="cur-Gah5aipa">
+             von Paul Muad'Dib;
+            </dbce>
+           </span>
+           <time class="comments_time" datetime="2016-09-26T12:29:22+02:00" title="26.09.2016 12:29">
+            <dbce class="cur-Gah5aipa">
+             26.09.2016 12:29
+            </dbce>
+           </time>
+          </figcaption>
+         </figure>
+        </li>
+       </ol>
+      </section>
+      <section class="teaser_fiver">
+       <h5 class="section_header">
+        <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+         Der Kommentar
+        </dbce>
+       </h5>
+       <div id="cycleteaser1nav">
+       </div>
+       <div id="cycleteaser1">
+        <p class="fiver_teaser_linker" style="display: block;">
+         <a href="/security/artikel/Politische-Loesungen-fuer-eine-sichere-Zukunft-der-Kommunikation-2288274.html" title="Politische Lösungen für eine sichere Zukunft der Kommunikation">
+          <span class="titelzeile">
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+            Politische Lösungen für eine sichere Zukunft der Kommunikation
+           </dbce>
+          </span>
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           <img alt="Politische Lösungen für eine sichere Zukunft der Kommunikation" height="90" src="http://1.f.ix.de/security/imgs/07/1/2/8/6/1/2/6/infected-efad1a253dc73360.png" title="Politische Lösungen für eine sichere Zukunft der Kommunikation" width="100"/>
+          </dbce>
+          <span class="textzeile">
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+            Nach den Snowden-Enthüllungen steht eine Diskussion an, was wir zukünftig besser machen können, um Spionage und großflächige Massenüberwachung zu verhindern. Neben besserer Technik braucht es da auch neue politische Ansätze, meint Linus Neumann.
+           </dbce>
+           <span class="mehr_schnipsel">
+            <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+             Mehr…
+            </dbce>
+           </span>
+          </span>
+         </a>
+        </p>
+        <p class="fiver_teaser_linker">
+         <a href="/security/artikel/Truecrypt-ist-unsicher-und-jetzt-2211475.html" title="Truecrypt ist unsicher - und jetzt?">
+          <span class="titelzeile">
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+            Truecrypt ist unsicher - und jetzt?
+           </dbce>
+          </span>
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           <img alt="Truecrypt ist unsicher - und jetzt?" height="73" src="http://1.f.ix.de/security/imgs/07/1/2/3/8/5/6/2/schluessel-442e882b276ffde9.jpeg" title="Truecrypt ist unsicher - und jetzt?" width="100"/>
+          </dbce>
+          <span class="textzeile">
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+            Sollten wir jetzt wirklich alle auf Bitlocker umsteigen, wie es die Truecrypt-Entwickler vorschlagen? Einen echten Nachfolger wird es jedenfalls so bald nicht geben - und daran sind nicht zu letzt auch die Truecrypt-Entwickler schuld.
+           </dbce>
+           <span class="mehr_schnipsel">
+            <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+             Mehr…
+            </dbce>
+           </span>
+          </span>
+         </a>
+        </p>
+        <p class="fiver_teaser_linker">
+         <a href="/security/artikel/Warum-Google-uns-echte-Verschluesselung-verweigert-2191797.html" title="Warum Google uns echte Verschlüsselung verweigert">
+          <span class="titelzeile">
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+            Warum Google uns echte Verschlüsselung verweigert
+           </dbce>
+          </span>
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           <img alt="Warum uns Google echte Verschlüsselung verweigert" height="92" src="http://1.f.ix.de/security/imgs/07/1/2/2/1/8/7/9/sichere-email-2-feec922e85358387.png" title="Warum uns Google echte Verschlüsselung verweigert" width="100"/>
+          </dbce>
+          <span class="textzeile">
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+            Warum haben wir eigentlich immer noch keine einfach zu nutzende Ende-zu-Ende-Verschlüsselung? Die Standardantwort lautet: Viel zu kompliziert! Doch das ist Unsinn; Apple zeigt längst, wie einfach das sein kann.
+           </dbce>
+           <span class="mehr_schnipsel">
+            <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+             Mehr…
+            </dbce>
+           </span>
+          </span>
+         </a>
+        </p>
+        <p class="fiver_teaser_linker">
+         <a href="/security/artikel/Warum-wir-Forward-Secrecy-brauchen-2171858.html" title="Warum wir Forward Secrecy brauchen">
+          <span class="titelzeile">
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+            Warum wir Forward Secrecy brauchen
+           </dbce>
+          </span>
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           <img alt="Warum wir jetzt Forward Secrecy brauchen" height="73" src="http://1.f.ix.de/security/imgs/07/1/2/0/8/9/0/7/schluessel-442e882b276ffde9.jpeg" title="Warum wir jetzt Forward Secrecy brauchen" width="100"/>
+          </dbce>
+          <span class="textzeile">
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+            Der SSL-GAU zeigt nachdrücklich, dass Forward Secrecy kein exotisches Feature für Paranoiker ist. Es ist vielmehr das einzige, was uns noch vor einer vollständigen Komplettüberwachung aller Kommunikation durch die Geheimdienste schützt.
+           </dbce>
+           <span class="mehr_schnipsel">
+            <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+             Mehr…
+            </dbce>
+           </span>
+          </span>
+         </a>
+        </p>
+        <p class="fiver_teaser_linker">
+         <a href="/security/artikel/Passwoerter-in-Gefahr-was-nun-2167584.html" title="Passwörter in Gefahr - was nun?">
+          <span class="titelzeile">
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+            Passwörter in Gefahr - was nun?
+           </dbce>
+          </span>
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           <img alt="Passwörter in Gefahr - was nun?" height="100" src="http://1.f.ix.de/security/imgs/07/1/2/0/5/9/1/9/heartbleed-pw2-8a87f288163db9c9.png" title="Passwörter in Gefahr - was nun?" width="83"/>
+          </dbce>
+          <span class="textzeile">
+           <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+            Durch Heartbleed sind theoretisch schon wieder viele Millionen Passwörter in Gefahr. Sicherheitsexperten raten dazu, alle zu ändern. heise-Security-Chefredakteur Jürgen Schmidt schätzt das anders ein.
+           </dbce>
+           <span class="mehr_schnipsel">
+            <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+             Mehr…
+            </dbce>
+           </span>
+          </span>
+         </a>
+        </p>
+       </div>
+      </section>
+     </aside>
+    </section>
+    <footer id="sitemap">
+     <dl>
+      <dt>
+       <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+        News und Artikel
+       </dbce>
+      </dt>
+      <dd>
+       <ul>
+        <li>
+         <a href="/security/news/">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           News
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/security/news/7_tage_news/">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           7-Tage-News
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/security/news/archiv/">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           News-Archiv
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/security/artikel/">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Hintergrund-Artikel
+          </dbce>
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+     <dl>
+      <dt>
+       <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+        Service
+       </dbce>
+      </dt>
+      <dd>
+       <ul>
+        <li>
+         <a href="/newsletter/manage/heisec-summary">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Newsletter
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/security/tools/">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Tools
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/forum/heise-Security/Themen-Hilfe/forum-33385/">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Foren
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/news-extern/news.html#security/">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           RSS
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="http://m.heise.de/security/">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           mobil
+          </dbce>
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+     <dl>
+      <dt>
+       <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+        Dienste
+       </dbce>
+      </dt>
+      <dd>
+       <ul>
+        <li>
+         <a href="/security/dienste/Der-heise-Security-Consulter-2126442.html">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Security Consulter
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/security/dienste/Netzwerkcheck-2114.html">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Netzwerkcheck
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/security/dienste/AntiVirus-2071.html">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Anti-Virus
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/security/dienste/Emailcheck-2109.html">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Emailcheck
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/security/dienste/Browsercheck-2107.html">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Browsercheck
+          </dbce>
+         </a>
+        </li>
+        <li>
+         <a href="/security/dienste/Krypto-Kampagne-2111.html">
+          <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+           Krypto-Kampagne
+          </dbce>
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </footer>
+   </div>
+   <div id="bannerzone">
+    <div class="leaderboard">
+     <div id="div-gpt-ad-3">
+     </div>
+    </div>
+    <div class="skyscraper">
+     <div id="div-gpt-ad-4">
+     </div>
+    </div>
+   </div>
+  </div>
+  <div style="display: inline;">
+   <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+    <img alt="" height="1" id="ivw_pixel_intern" src="http://www.heise.de/ivw-bin/ivw/CP/security/artikel/Analysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-Teil-II-3303401.html?url=%2Fsecurity%2Fartikel%2FAnalysiert-Ransomware-meets-Info-Stealer-RAA-und-das-diebische-Pony-Teil-II-3303401.html" width="1"/>
+   </dbce>
+  </div>
+  <ul id="navi_bottom">
+   <li class="left">
+    <a href="/Privacy-Policy-der-Heise-Medien-GmbH-Co-KG-4860.html">
+     <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+      Datenschutzhinweis
+     </dbce>
+    </a>
+   </li>
+   <li class="left">
+    <a href="/security/impressum.html">
+     <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+      Impressum
+     </dbce>
+    </a>
+   </li>
+   <li class="left">
+    <a href="/security/kontakt/">
+     <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+      Kontakt
+     </dbce>
+    </a>
+   </li>
+   <li class="left">
+    <a href="https://www.heise.de/mediadaten/online/">
+     <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+      Mediadaten
+     </dbce>
+    </a>
+   </li>
+   <li class="left">
+    <a href="http://m.heise.de/security/">
+     <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+      News mobil
+     </dbce>
+    </a>
+   </li>
+   <li class="bid_anzeige">
+    <dbce class="cur-Gah5aipa next-ooTheiW0 prev-AhCho7aa">
+     1876917
+    </dbce>
+   </li>
+   <li class="right">
+    <a href="https://www.interred.de/" rel="external" style="margin-right: 0;">
+     <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+      Content Management
+     </dbce>
+    </a>
+    <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+     by
+    </dbce>
+    <b style="margin-right: 0.5em;">
+     <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+      Inter
+     </dbce>
+     <span class="tx_red">
+      <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+       Red
+      </dbce>
+     </span>
+    </b>
+   </li>
+   <li class="right">
+    <a href="https://www.heise-medien.de/">
+     <dbce class="cur-Gah5aipa down-aeMaix1i next-ooTheiW0 prev-AhCho7aa up-Zaachae8">
+      Copyright © 2016 Heise Medien
+     </dbce>
+    </a>
+   </li>
+  </ul>
+ </body>
+</html>

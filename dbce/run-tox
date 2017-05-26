@@ -1,0 +1,12 @@
+#!/bin/sh
+
+MYTMPDIR="$HOME/tox-tmp/"
+if [ ! -d $MYTMPDIR ]; then
+ mkdir -p $MYTMPDIR
+fi
+
+mkdir -p stash/test_results
+mkdir -p stash/tox_results
+
+TMPDIR=$MYTMPDIR tox $*
+

@@ -1,0 +1,8 @@
+*~
+*.pyc
+.coverage
+.tox/
+__pycache__/
+l3s_dbce.egg-info/
+build/
+datasets/rawdata/niezalezna-*.gz

@@ -1,0 +1,51 @@
+
+* Diff Based Content Extraction
+  Tested on ArchLinux, python 3.5.2, tox 2.4.1
+
+* Install
+  - initialize tox environment
+  $> ./run-tox -r --notest -e py35
+
+  Note: On modern systems /tmp is allocated in RAM. It may happen, that you do not have enough memory available
+        for the initialization process. In this case tox-run sets TMPDIR to $HOME/tox-tmp/
+
+* Configure DBCE
+  - edit dbce.ini and setup project directory dbce_dir = /home/<user>/path/to/dbce/
+
+* Running tox - pylint and coverage for fast testing
+  $> tox
+
+* Using developement environment
+  - for csh users
+  $> source .tox/py35/bin/activate.csh
+  [py35] $>
+  [py35] $> setenv DBCE_BINDIR `pwd`
+  [py35] $> setenv DBCE_WORKDIR `pwd`/stash/test_results/
+  [py35] $> setenv PYTHONHASHSEED 2047226289
+  [py35] $> setenv DBCE_GROUND_DIR `pwd`/datasets/groundtruth/
+
+  - for csh users with default values
+  [py35] $> source ./dbce-init.csh
+
+ * Reproducing the experiment
+   [py35] $> cd tests/
+   [py35] tests $> setenv SLOW_TESTS=1
+   [py35] tests $> nosetests --pdb-errors test01.py:TestExperimentAll
+
+   - create report
+   [py35] tests $> ../dbce-tool.py --report ../stash/test_results/your_result_path/
+
+* Testing
+  [py35] $> cd tests/
+  [py35] tests $> nosetests --verbose test01.py
+
+* Creating own tests
+  - allow random crosses in dbce.ini
+  only_defined_crosses = False
+  - create a unittest like the TestExperimentAll test in tests/test01.py
+  - setup paths to CDX files
+  [py35] tests $> nosetests test01.py:TestMyExperiment
+
+  - the results will be stored in stash/test_results/
+  - generate report
+  [py35] tests $> ../dbce-tool.py --report stash/test_results/your_result_path/
