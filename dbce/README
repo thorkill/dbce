@@ -29,7 +29,7 @@
 
  * Reproducing the experiment
    [py35] $> cd tests/
-   [py35] tests $> setenv SLOW_TESTS=1
+   [py35] tests $> setenv SLOW_TESTS 1
    [py35] tests $> nosetests --pdb-errors test01.py:TestExperimentAll
 
    - create report
